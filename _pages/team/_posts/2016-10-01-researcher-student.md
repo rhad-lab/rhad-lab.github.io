@@ -1,9 +1,9 @@
 ---
 layout: member
 category: student
-title: Researcher Name
-image: researcher.png
-role: PhD Student
+title: Danielle Benesch
+image: 2.jpg
+role: Master's student
 permalink: 'team/researcher-name'
 social:
     twitter: https://twitter.com/
