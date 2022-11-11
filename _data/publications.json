@@ -1,38 +1,470 @@
 [
 	{
-		"id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
+		"id": "http://zotero.org/groups/250355/items/RQBFF77Z",
 		"type": "article-journal",
-		"title": "Segmentation of Nuclei in Histopathology Images by Deep Regression of the Distance Map",
-		"container-title": "IEEE Transactions on Medical Imaging",
-		"page": "448-459",
-		"volume": "38",
-		"issue": "2",
-		"source": "IEEE Xplore",
-		"abstract": "The advent of digital pathology provides us with the challenging opportunity to automatically analyze whole slides of diseased tissue in order to derive quantitative profiles that can be used for diagnosis and prognosis tasks. In particular, for the development of interpretable models, the detection and segmentation of cell nuclei is of the utmost importance. In this paper, we describe a new method to automatically segment nuclei from Haematoxylin and Eosin (H&E) stained histopathology data with fully convolutional networks. In particular, we address the problem of segmenting touching nuclei by formulating the segmentation problem as a regression task of the distance map. We demonstrate superior performance of this approach as compared to other approaches using Convolutional Neural Networks.",
-		"DOI": "10.1109/TMI.2018.2865709",
+		"container-title": "The Journal of the Acoustical Society of America",
+		"DOI": "10.1121/1.4976051",
+		"ISSN": "0001-4966",
+		"issue": "3",
+		"language": "en",
+		"page": "1321-1331",
+		"source": "CrossRef",
+		"title": "In-ear microphone speech quality enhancement via adaptive filtering and artificial bandwidth extension",
+		"URL": "http://aip.scitation.org/doi/10.1121/1.4976051",
+		"volume": "141",
 		"author": [
 			{
-				"family": "Naylor",
-				"given": "P."
+				"family": "Bouserhal",
+				"given": "Rachel E."
 			},
 			{
-				"family": "Laé",
-				"given": "M."
+				"family": "Falk",
+				"given": "Tiago H."
 			},
 			{
-				"family": "Reyal",
-				"given": "F."
-			},
-			{
-				"family": "Walter",
-				"given": "T."
+				"family": "Voix",
+				"given": "Jérémie"
 			}
 		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					2,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/250355/items/59722693",
+		"type": "article-journal",
+		"container-title": "Journal of the Audio Engineering Society",
+		"DOI": "10.17743/jaes.2021.0032",
+		"ISSN": "15494950",
+		"issue": "9",
+		"journalAbbreviation": "J. Audio Eng. Soc.",
+		"language": "en",
+		"page": "618-643",
+		"source": "DOI.org (Crossref)",
+		"title": "Design and Assessment of an Active Musician’s Hearing Protection Device With Occlusion Effect Reduction",
+		"URL": "https://www.aes.org/e-lib/browse.cfm?elib=21459",
+		"volume": "69",
+		"author": [
+			{
+				"family": "Bernier",
+				"given": "Antoine"
+			},
+			{
+				"family": "Bouserhal",
+				"given": "Rachel E."
+			},
+			{
+				"family": "Voix",
+				"given": "Jérémie"
+			},
+			{
+				"family": "Herzog",
+				"given": "Philippe"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					9,
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/250355/items/VA4PGQL6",
+		"type": "article-journal",
+		"abstract": "Audio wearable devices, or hearables, are becoming an increasingly popular consumer product. Some of these hearables contain an in-ear microphone to capture audio signals inside the user’s occluded earcanal. Mainly, the microphone is used to pick up speech in noisy environments, but it can also capture other signals, such as nonverbal events that could be used to interact with the device or a computer. Teeth or tongue clicking could be used to interact with a device in a discreet manner, and coughing or throatclearing sounds could be used to monitor the health of a user. In this paper, 10 human produced nonverbal audio events are detected and classiﬁed in real-time with a classiﬁer using the Bag-of-Audio-Words algorithm. To build this algorithm, different clustering and classiﬁcation methods are compared. MelFrequency Cepstral Coefﬁcient features are used alongside Auditory-inspired Amplitude Modulation features and Per-Channel Energy Normalization features. To combine the different features, concatenation performance at the input level and at the histogram level is compared. The real-time detector is built using the detection by classiﬁcation technique, classifying on a 400 ms window with 75% overlap. The detector is tested in a controlled noisy environment on 10 subjects. The classiﬁer had a sensitivity of 81.5% while the detector using the same classiﬁer had a sensitivity of 69.9% in a quiet environment.",
+		"container-title": "Applied Acoustics",
+		"DOI": "10.1016/j.apacoust.2020.107643",
+		"ISSN": "0003682X",
+		"language": "en",
+		"page": "107643",
+		"source": "Crossref",
+		"title": "Detection and classification of human-produced nonverbal audio events",
+		"URL": "https://linkinghub.elsevier.com/retrieve/pii/S0003682X20307477",
+		"volume": "171",
+		"author": [
+			{
+				"family": "Chabot",
+				"given": "Philippe"
+			},
+			{
+				"family": "Bouserhal",
+				"given": "Rachel E."
+			},
+			{
+				"family": "Cardinal",
+				"given": "Patrick"
+			},
+			{
+				"family": "Voix",
+				"given": "Jérémie"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					10,
+					13
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/250355/items/8AZSWZAZ",
+		"type": "paper-conference",
+		"abstract": "To enhance the communication experience of workers equipped with hearing protection devices and radio communication in noisy environments, alternative methods of speech capture have been utilized. One such approach uses speech captured by a microphone in an occluded ear canal. Although high in signal-to-noise ratio, bone and tissue conducted speech has a limited bandwidth with a high frequency roll-off at 2 kHz. In this paper, the potential of using various bandwidth extension techniques is investigated by studying the mutual information between the signals of three uniquely placed microphones: inside an occluded ear, outside the ear and in front of the mouth. Using a Gaussian mixture model approach, the mutual information of the low and high-band frequency ranges of the three microphone signals at varied levels of signal-tonoise ratio is measured. Results show that a speech signal with extended bandwidth and high signal-to-noise ratio may be achieved using the available microphone signals.",
+		"container-title": "2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+		"DOI": "10.1109/ICASSP.2015.7178944",
+		"event-place": "South Brisbane, Queensland, Australia",
+		"event-title": "ICASSP 2015 - 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+		"ISBN": "978-1-4673-6997-8",
+		"language": "en",
+		"page": "5108-5112",
+		"publisher": "IEEE",
+		"publisher-place": "South Brisbane, Queensland, Australia",
+		"source": "Crossref",
+		"title": "On the potential for artificial bandwidth extension of bone and tissue conducted speech: a mutual information study",
+		"title-short": "On the potential for artificial bandwidth extension of bone and tissue conducted speech",
+		"URL": "http://ieeexplore.ieee.org/document/7178944/",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel E."
+			},
+			{
+				"family": "Falk",
+				"given": "Tiago H."
+			},
+			{
+				"family": "Voix",
+				"given": "Jeremie"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					8,
+					7
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2015",
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/250355/items/PWZ56QNC",
+		"type": "article-journal",
+		"container-title": "The Journal of the Acoustical Society of America",
+		"DOI": "10.1121/1.5091777",
+		"ISSN": "0001-4966",
+		"issue": "2",
+		"language": "en",
+		"page": "1069-1077",
+		"source": "Crossref",
+		"title": "An in-ear speech database in varying conditions of the audio-phonation loop",
+		"URL": "http://asa.scitation.org/doi/10.1121/1.5091777",
+		"volume": "145",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel E."
+			},
+			{
+				"family": "Bernier",
+				"given": "Antoine"
+			},
+			{
+				"family": "Voix",
+				"given": "Jérémie"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2019",
+					3,
+					1
+				]
+			]
+		},
 		"issued": {
 			"date-parts": [
 				[
 					"2019",
 					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/250355/items/DDVA4F6V",
+		"type": "article-journal",
+		"abstract": "The accurate classiﬁcation of nonverbal human produced audio events opens the door to numerous applications beyond health monitoring. Voluntary events, such as tongue clicking and teeth chattering, may lead to a novel way of silent interface command. Involuntary events, such as coughing and clearing the throat, may advance the current state-of-the-art in hearing health research. The challenge of such applications is the balance between the processing capabilities of a small intra-aural device and the accuracy of classiﬁcation. In this pilot study, 10 nonverbal audio events are captured inside the ear canal blocked by an intra-aural device. The performance of three classiﬁers is investigated: Gaussian Mixture Model (GMM), Support Vector Machine and Multi-Layer Perceptron. Each classiﬁer is trained using three different feature vector structures constructed using the mel-frequency cepstral (MFCC) coefﬁcients and their derivatives. Fusion of the MFCCs with the auditoryinspired amplitude modulation features (AAMF) is also investigated. Classiﬁcation is compared between binaural and monaural training sets as well as for noisy and clean conditions. The highest accuracy is achieved at 75.45% using the GMM classiﬁer with the binaural MFCC+AAMF clean training set. Accuracy of 73.47% is achieved by training and testing the classiﬁer with the binaural clean and noisy dataset.",
+		"language": "en",
+		"page": "5",
+		"source": "Zotero",
+		"title": "Classiﬁcation of nonverbal human produced audio events: a pilot study",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel E"
+			},
+			{
+				"family": "Chabot",
+				"given": "Philippe"
+			},
+			{
+				"family": "Sarria-Paja",
+				"given": "Milton"
+			},
+			{
+				"family": "Cardinal",
+				"given": "Patrick"
+			},
+			{
+				"family": "Voix",
+				"given": "Jeremie"
+			}
+		]
+	},
+	{
+		"id": "http://zotero.org/groups/250355/items/SJRSXW5W",
+		"type": "article-journal",
+		"abstract": "Objective: Speech production in noise with varying talker-to-listener distance has been well studied for the open ear condition. However, occluding the ear canal can affect the auditory feedback and cause deviations from the models presented for the open-ear condition. Communication is a main concern for people wearing hearing protection devices (HPD). Although practical, radio communication is cumbersome, as it does not distinguish designated receivers. A smarter radio communication protocol must be developed to alleviate this problem. Thus, it is necessary to model speech production in noise while wearing HPDs. Such a model opens the door to radio communication systems that distinguish receivers and offer more efficient communication between persons wearing HPDs. Design: This paper presents the results of a pilot study aimed to investigate the effects of occluding the ear on changes in voice level and fundamental frequency in noise and with varying talker-to-listener distance. Study sample: Twelve participants with a mean age of 28 participated in this study. Results: Compared to existing data, results show a trend similar to the open ear condition with the exception of the occluded quiet condition. Conclusions: This implies that a model can be developed to better understand speech production for the occluded ear.",
+		"container-title": "International Journal of Audiology",
+		"DOI": "10.3109/14992027.2015.1122240",
+		"ISSN": "1499-2027, 1708-8186",
+		"issue": "sup1",
+		"language": "en",
+		"page": "S13-S20",
+		"source": "Crossref",
+		"title": "Variations in voice level and fundamental frequency with changing background noise level and talker-to-listener distance while wearing hearing protectors: A pilot study",
+		"title-short": "Variations in voice level and fundamental frequency with changing background noise level and talker-to-listener distance while wearing hearing protectors",
+		"URL": "http://www.tandfonline.com/doi/full/10.3109/14992027.2015.1122240",
+		"volume": "55",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel E."
+			},
+			{
+				"family": "Macdonald",
+				"given": "Ewen N."
+			},
+			{
+				"family": "Falk",
+				"given": "Tiago H."
+			},
+			{
+				"family": "Voix",
+				"given": "Jérémie"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					5,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					2,
+					12
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/250355/items/KHDVPEVB",
+		"type": "book",
+		"publisher": "Michigan State University. Electrical Engineering",
+		"source": "Google Scholar",
+		"title": "Experimental Testing of the Extended High-gain Observer as a Disturbance Estimator",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel E."
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2011"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/250355/items/TS57Q679",
+		"type": "article-journal",
+		"container-title": "The Journal of the Acoustical Society of America",
+		"DOI": "10.1121/1.4976051",
+		"ISSN": "0001-4966",
+		"issue": "3",
+		"language": "en",
+		"page": "1321-1331",
+		"source": "CrossRef",
+		"title": "In-ear microphone speech quality enhancement via adaptive filtering and artificial bandwidth extension",
+		"URL": "http://aip.scitation.org/doi/10.1121/1.4976051",
+		"volume": "141",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel E."
+			},
+			{
+				"family": "Falk",
+				"given": "Tiago H."
+			},
+			{
+				"family": "Voix",
+				"given": "Jérémie"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					2,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/250355/items/MQGT9699",
+		"type": "article-journal",
+		"container-title": "Journal of Speech Language and Hearing Research",
+		"DOI": "10.1044/2017_JSLHR-S-17-0052",
+		"ISSN": "1092-4388",
+		"issue": "12",
+		"language": "en",
+		"page": "3393",
+		"source": "CrossRef",
+		"title": "Modeling Speech Level as a Function of Background Noise Level and Talker-to-Listener Distance for Talkers Wearing Hearing Protection Devices",
+		"URL": "http://jslhr.pubs.asha.org/article.aspx?doi=10.1044/2017_JSLHR-S-17-0052",
+		"volume": "60",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel E."
+			},
+			{
+				"family": "Bockstael",
+				"given": "Annelies"
+			},
+			{
+				"family": "MacDonald",
+				"given": "Ewen"
+			},
+			{
+				"family": "Falk",
+				"given": "Tiago H."
+			},
+			{
+				"family": "Voix",
+				"given": "Jérémie"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2018",
+					2,
+					2
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					12,
+					20
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/groups/250355/items/N8AW4Q9D",
+		"type": "patent",
+		"note": "00000",
+		"number": "USPTO  62/332861",
+		"title": "DEVICE AND METHOD FOR IMPROVING THE QUALITY OF IN-EAR MICROPHONE SIGNALS IN NOISY ENVIRONMENTS",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel E"
+			},
+			{
+				"family": "Voix",
+				"given": "Jérémie"
+			},
+			{
+				"family": "Falk",
+				"given": "Tiago H."
+			}
+		],
+		"submitted": {
+			"date-parts": [
+				[
+					"2016",
+					5
 				]
 			]
 		}
