@@ -6,7 +6,7 @@ image: 1.jpg
 role: Lab Director
 permalink: 'team/Bouserhal'
 social:
-    linkedin: www.linkedin.com/in/rbouserhal
+    linkedin: https://www.linkedin.com/in/rbouserhal/
     google-scholar: https://scholar.google.ca/citations?user=s9s1xyQAAAAJ&hl=en
     github: https://github.com/
     website:
