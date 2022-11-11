@@ -4,7 +4,7 @@ category: student
 title: Xinyi Zhang
 image: 3.jpg
 role: Master's student
-permalink: 'team/researcher-name'
+permalink: 'team/Zhang'
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
