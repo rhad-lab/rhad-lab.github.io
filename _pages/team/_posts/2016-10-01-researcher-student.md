@@ -4,7 +4,7 @@ category: student
 title: Danielle Benesch
 image: 2.jpg
 role: Master's student
-permalink: 'team/Benesch'
+permalink: 'team/researcher-name'
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
