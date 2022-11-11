@@ -1,6 +1,6 @@
 ---
 layout: member
-category: Faculty
+category: staff
 title: Rachel Bouserhal
 image: 1.jpg
 role: Lab Director
