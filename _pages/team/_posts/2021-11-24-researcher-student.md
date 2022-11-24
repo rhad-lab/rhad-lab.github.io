@@ -1,10 +1,10 @@
 ---
 layout: member
 category: student
-title: Malahat Mehraban
-image: 4.jpg
+title: Alexandre Petrosky
+image: 5.jpg
 role: Master's student
-permalink: 'team/Mehraban'
+permalink: 'team/Petrosky'
 social:
     twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/
