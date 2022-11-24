@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: staff
 title: Hoa Tran
 image: 7.jpg
 role: Postdoctoral Fellow
