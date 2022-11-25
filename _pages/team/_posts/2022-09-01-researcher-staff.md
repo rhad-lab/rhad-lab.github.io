@@ -6,15 +6,10 @@ image: 7.jpg
 role: Postdoctoral Fellow
 permalink: 'team/Tran'
 social:
-    twitter: https://twitter.com/
-    linkedin: https://www.linkedin.com/
-    google-scholar: https://scholar.google.fr/
-    github: https://github.com/
-    website:
-    orcid: https://orcid.org/
-    research-gate: https://www.researchgate.net/
+    linkedin: https://www.linkedin.com/in/duc-hoa/
+    google-scholar: https://scholar.google.com/citations?user=Tu94Z7cAAAAJ&hl=fr&oi=ao
 education:
  - Education
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Duc Hoa Tran received the B.Ing. and M.A.Sc. degrees in Electronics engineering from Hanoi University of Science and Technology, Vietnam (2009) and Politecnico di Torino, Italy (2012), respectively. He received the Ph.D. degree in Computer Engineering at the École Polytechnique de Montreal, Canada in 2022. He is currently a postdoctoral fellow at the RHAD Lab - École de technologie supérieure. His research interests include speech recognition, computer vision and machine learning technology.
