@@ -1,7 +1,7 @@
 ---
 layout: member
 category: staff
-title: Hoa Tran
+title: Duc Hoa Tran
 image: 7.jpg
 role: Postdoctoral Fellow
 permalink: 'team/Tran'
