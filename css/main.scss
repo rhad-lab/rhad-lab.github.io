@@ -11,6 +11,12 @@ body {
   flex-direction: column;
 }
 
+flex-fill {
+
+  flex: 1;
+
+}
+
 figcaption {
   text-align: right;
   margin-top: -20px;
