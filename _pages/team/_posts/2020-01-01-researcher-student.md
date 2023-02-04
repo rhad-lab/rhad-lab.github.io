@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: former_student
 title: Danielle Benesch
 image: 2.jpg
 role: Master's student
@@ -10,7 +10,7 @@ social:
     linkedin: https://ca.linkedin.com/in/danielle-benesch-803a33145
     google-scholar: https://scholar.google.com/citations?user=dDTasGUAAAAJ
     github: https://github.com/danibene
-    website:
+    <> website:
     orcid: https://orcid.org/0000-0002-2002-2325
     research-gate: https://www.researchgate.net/profile/Danielle_Benesch
 education:

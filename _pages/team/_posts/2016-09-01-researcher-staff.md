@@ -8,8 +8,8 @@ permalink: 'team/Bouserhal'
 social:
     linkedin: https://www.linkedin.com/in/rbouserhal/
     google-scholar: https://scholar.google.ca/citations?user=s9s1xyQAAAAJ&hl=en
-    github: https://github.com/
-    website:
+    <> github: https://github.com/
+    <> website:
     orcid: https://orcid.org/0000-0003-0460-5798
     research-gate: https://www.researchgate.net/profile/Rachel-Bouserhal
 ---
