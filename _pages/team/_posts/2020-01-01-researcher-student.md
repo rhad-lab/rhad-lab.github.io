@@ -17,4 +17,4 @@ education:
  - Education
 ---
 
-Danielle Benesch completed her bachelor's degree in cognitive science at Osnabrück University in 2019. In 2020, she started her research master's at École de technologie supérieure. During her master's, she has been working on the ``Sensitive Ear'' project under the supervision of Prof. Jérémie Voix and Prof. Rachel Bouserhal. Her research is centred around the development and evaluation of a wearable technology that removes distressing sounds in real time, spanning the fields of audio processing, affective computing, and assistive technology design.
+Danielle Benesch holds a B.Sc. in Cognitive Science from Osnabrück University and a M.A.Sc. in Engineering from École de technologie supérieure. She is currently working as a Technology Lead in Applied Cognition at Thales Group. During her graduate work co-supervised by Profs. Jérémie Voix and Rachel Bouserhal, she worked on the "Sensitive Ear" project, which focused on developing a wearable technology for managing decreased sound tolerance. Her research interests include audio processing, affective computing, and assistive technology design.
