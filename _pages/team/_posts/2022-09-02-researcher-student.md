@@ -1,15 +1,15 @@
 ---
 layout: member
-category: student
+category: phd_student
 title: Homayoun Sohrabpour
 image: 6.jpg
 role: PhD Candidate
 permalink: 'team/Sohrabpour'
 social:
     <> twitter: https://twitter.com/
-    <> linkedin: https://www.linkedin.com/
+    linkedin: https://linkedin.com/in/homayoun-sohrabpour-950853152
     <> google-scholar: https://scholar.google.fr/
-    <> github: https://github.com/
+    github:  https://github.com/homayounsr
     <> website:
     <> orcid: https://orcid.org/
     <> research-gate: https://www.researchgate.net/
@@ -17,4 +17,4 @@ education:
  - Education
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Homayoun Sohrabpour holds a bachelor’s degree in electrical engineering and a master’s degree in computer science. His research experience includes being familiar with machine learning and signal processing. Currently, as a Ph.D. student, he is working on a project to build a new model to ease communication in noisy environments.

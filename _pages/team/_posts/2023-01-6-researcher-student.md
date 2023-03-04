@@ -2,14 +2,14 @@
 layout: member
 category: student
 title: Miriam Boutros
-image: anon-female-icon.jpg
+image: 9.png
 role: Master's student
 permalink: 'team/miriam_boutros'
 social:
     <> twitter: https://twitter.com/
     linkedin: https://www.linkedin.com/in/miriam-boutros/
     <> google-scholar: https://scholar.google.fr/
-    <> github: https://github.com/yacinemrabet1
+    <> github: 
     <> website:
     <> orcid: https://orcid.org/
     <> research-gate: https://www.researchgate.net/
