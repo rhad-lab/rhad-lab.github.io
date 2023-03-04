@@ -9,12 +9,31 @@ permalink: /news.html
 
 <ul class="list-unstyled">
     {% for article in site.data.news %}
-        <li class="media">
-            <div class="media-body">
-            <h4 class="mt-0 mb-1">{{ article.title }}</h4>
-            <p><small>{{ article.date }}</small></p>
-            {{ article.content }}
+        <div class="row gx-5"  style="margin:20px;padding:20px;background-color:#fafafa;border-radius: 15px;border:1px solid #e8e8e8"> 
+            <div class="col-md-6 mb-4">
+              <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+                <img src={{ article.picture_link }} style="max-width:100%;height:auto;border-radius: 10px;" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
             </div>
-        </li>
+          
+            <div class="col-md-6 mb-4">
+              <span class="badge bg-danger px-2 py-1 shadow-1-strong mb-3">News of the day</span>
+              <h4><strong>{{ article.title }}</h4>
+              <h5><strong>{{ article.date }}</h5>
+            
+              <p class="text-muted">
+                {{ article.content }}
+              </p>
+              <a href={{ article.news_link }} target="_blank" >
+              <button type="button" class="btn btn-primary">Read more</button></a>
+            </div>
+          </div>
+
+
+
+
     {% endfor %}
 </ul>
