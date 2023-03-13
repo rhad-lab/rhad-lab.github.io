@@ -1,9 +1,9 @@
 ---
 layout: member
-category: student
+category: phd_student
 title: Xinyi Zhang
 image: 3.jpg
-role: Master's student
+role: PhD Candidate
 permalink: 'team/Zhang'
 social:
     linkedin: https://www.linkedin.com/in/xinyi--zhang/
