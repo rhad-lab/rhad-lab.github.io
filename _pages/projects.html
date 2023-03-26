@@ -1,0 +1,39 @@
+---
+title: "Projects"
+layout: default
+sitemap: false
+permalink: /Projects
+---
+
+<ul class="list-unstyled">
+    {% for book in site.data.projects %}
+
+    
+        <div class="row gx-5"  style="margin:20px;padding:20px;background-color:#fafafa;border-radius: 15px;border:1px solid #e8e8e8"> 
+            <div class="col-md-6 mb-4">
+              <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ book.picture_link }}" style="max-width:100%;height:auto;border-radius: 10px;" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+            </div>
+          
+            <div class="col-md-6 mb-4">
+              <span class="badge bg-danger px-2 py-1 shadow-1-strong mb-3">Project</span>
+              <h4><strong>{{ book.title }}</h4>
+                <h4><strong>{{ book.student }}</h4>
+            
+              <p class="text-muted">
+                {{ book.content_summary }}
+              </p>
+              <a href= "{{book.url}}" target="_blank" >
+              <button type="button" class="btn btn-primary">Read more</button></a>
+            </div>
+          </div>
+
+
+
+
+    {% endfor %}
+</ul>

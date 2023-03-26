@@ -4,7 +4,9 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
-
+plugins:
+  - jekyll-datapage-generator
+  
 # Site settings
 title: RHAD Lab
 email: rachel.bouserhal@etsmtl.ca
@@ -19,8 +21,22 @@ include:
   - .htaccess
   - _pages
 
+
 sass:
   sass_dir: _sass
+
+
+site:
+  site_dir: _site
+
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+
+page_gen:
+  - data: 'projects'
+    template: 'project'
+    name: 'url'
+    dir: 'projects'
+
 
 # Conversion
 markdown: kramdown
@@ -41,3 +57,6 @@ kramdown:
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
+
+
+    

@@ -13,6 +13,7 @@ social:
     <> website:
     <> orcid: https://orcid.org/
     <> research-gate: https://www.researchgate.net/
+    
 education:
  - Education
 ---
