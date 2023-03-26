@@ -251,11 +251,12 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  x86_64-linux
   x86_64-linux-musl
 
 DEPENDENCIES
   github-pages
-  jekyll (>= 3.8.5)
+  jekyll (= 3.9.3)
   jekyll-datapage-generator
   webrick
 
