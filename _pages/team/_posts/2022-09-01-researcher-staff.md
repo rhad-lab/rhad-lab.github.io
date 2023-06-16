@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Duc Hoa Tran
 image: 7.jpg
-role: Postdoctoral Fellow
+role: Research Associate
 permalink: 'team/Tran'
 social:
     linkedin: https://www.linkedin.com/in/duc-hoa/

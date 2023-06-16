@@ -3,7 +3,7 @@ layout: member
 category: phd_student
 title: Xinyi Zhang
 image: 3.jpg
-role: PhD Candidate
+role: PhD Student
 permalink: 'team/Zhang'
 social:
     linkedin: https://www.linkedin.com/in/xinyi--zhang/

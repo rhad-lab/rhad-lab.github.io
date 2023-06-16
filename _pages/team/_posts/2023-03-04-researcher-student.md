@@ -1,6 +1,6 @@
 ---
 layout: member
-category: intern
+category: former_student
 title: David </br> Osorio Laverde
 image: 11.jpg
 role: Intern
