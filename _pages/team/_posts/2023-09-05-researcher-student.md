@@ -2,7 +2,7 @@
 layout: member
 category: intern
 title: Siyana Milenova Milanova
-image: 13.png
+image: 13.jpg
 role: Intern
 permalink: 'team/siyana_milenova_milanova'
 social:
