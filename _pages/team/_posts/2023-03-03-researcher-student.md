@@ -1,6 +1,6 @@
 ---
 layout: member
-category: intern
+category: former_student
 title: Pierre Kutkowski
 image: 10.jpg
 role: Intern
