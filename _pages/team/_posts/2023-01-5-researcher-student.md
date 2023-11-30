@@ -13,6 +13,13 @@ social:
     <> website:
     <> orcid: https://orcid.org/
     <> research-gate: https://www.researchgate.net/
+awards:
+
+  - "[Tunisian Government Fully Funded Scholarship for MSc and PhD Studies](http://www.mutan.org/mutan-bourses.php)"
+  - "[Mitacs Graduate Fellowship](https://www.mitacs.ca/our-programs/globalink-graduate-fellowship-students-postdocs/)"
+  - "[Second Prize at ÉTS Three Minute Thesis Competition](https://www.youtube.com/watch?v=VEF1xyBTV7Y&t=3s&ab_channel=ETSMTL-Enseignement)"
+
+
 education:
  - Education
 ---

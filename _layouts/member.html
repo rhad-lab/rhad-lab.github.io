@@ -60,4 +60,28 @@ layout: default
         <h3>Bio</h3>
         {{ content }}
     </div>
+
+
+    <!-- Bio -->
+    <div class="row">
+        {% if page.awards %}
+          <h2>Awards</h2>
+          <ul>
+            {% for award in page.awards %}
+              {% assign award_parts = award | split: '[' %}
+              {% if award_parts.size > 1 %}
+                {% assign award_title = award_parts[1] | split: ']' | first %}
+                {% assign link_content = award_parts[1] | split: '(' | last %}
+                {% assign award_link = link_content | slice: 0, link_content.size | replace: ')', '' %}
+                <li>
+                  <a href="{{ award_link | default: '#' }}" target="_blank">{{ award_title }}</a>
+                </li>
+              {% else %}
+                <li>{{ award }}</li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+    
 </div>
