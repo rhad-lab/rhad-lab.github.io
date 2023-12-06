@@ -13,6 +13,10 @@ social:
     <> website:
     <> orcid: https://orcid.org/
     <> research-gate: https://www.researchgate.net/
+
+awards:
+  - "[Summer 2023 and Winter 2023 - Exemption from additional tuition fees](https://www.etsmtl.ca/en/ets/bourses/exemptions-from-additional-tuition-fees)"
+
 education:
  - Education
 ---

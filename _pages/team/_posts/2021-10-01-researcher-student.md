@@ -7,6 +7,18 @@ role: PhD Student
 permalink: 'team/Zhang'
 social:
     linkedin: https://www.linkedin.com/in/xinyi--zhang/
+
+awards:
+  - "[Best Student Presentation Award - Canadian Acoustical Association (CAA)](https://caa-aca.ca/awards/student-presentation-award/)"
+  - "[Winter 2022, Summer 2022, Fall 2022 - ÉTS Exemption of International Student Tuition Fees ](https://www.etsmtl.ca/en/ets/bourses/exemptions-from-additional-tuition-fees)"
+  - "[ÉTS Internal Scholarship ](https://www.etsmtl.ca/en/ets/bourses/ets-internal)"
+  - "[ÉTS Palmarès Féminin Pluriel ](https://www.etsmtl.ca/nouvelles/2022/palmares-fp-2022)"
+  - "[AI4Good Lab Fellowship ](https://www.ai4goodlab.com/)"
+  - "[FRQNT - Master's Scholarship](https://frq.gouv.qc.ca/en/program/scholarships-2nd-and-3rd-cycle-2022-2023/)"
+  - "[OPSIDIAN Scholarship](https://www.polymtl.ca/opsidian/en)"
+  - "[Oct. 2023 - Bell Graduate Student Prize in Speech Communication and Hearing - CAA](https://caa-aca.ca/awards/alexander-graham-bell-student-prize-in-speech-communication-and-hearing/)"
+
+
 education:
  - Education
 ---
