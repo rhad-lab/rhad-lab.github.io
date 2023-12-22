@@ -1,9 +1,9 @@
 ---
 layout: member
-category: former_student
+category: research_assistant
 title: Siyana Milenova Milanova
 image: 13.jpg
-role: Intern
+role: Research assistant
 permalink: 'team/siyana_milenova_milanova'
 social:
     linkedin: https://www.linkedin.com/in/siyana-milenova-milanova-28b173210/

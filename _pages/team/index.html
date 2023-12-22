@@ -129,6 +129,27 @@ permalink: /team/
 
 
 
+<!-- Research Assistant -->
+<h2><a id="intern"></a>Research assistants</h2>
+<div class="row">
+    {% assign members = site.posts | where: 'category', 'research_assistant' | sort: 'date' %}
+    {% for member in members %}
+    <div class="col-sm-3 mb-3">
+        <div class="card team-member-card">
+            <a href={{ member.url }}>
+                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
+                    class="card-img-top img-thumbnail"
+                    style=" border-radius: 10%;" />
+            </a>
+            <div class="card-body">
+                <h4 class="card-title">{{ member.title }}</h4>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+
 
 
 <!-- Interns -->
