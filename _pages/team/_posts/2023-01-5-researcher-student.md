@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Yassine Mrabet
-image: 8.jpg
+image: 18.jpg
 role: Master's student
 permalink: 'team/yassine_mb'
 social:
