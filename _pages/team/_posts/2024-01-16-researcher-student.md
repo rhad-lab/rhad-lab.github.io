@@ -1,11 +1,13 @@
 ---
 layout: member
-category: phd_student
+category: staff
 title: Arian Shamei
 image: 19.jpeg
-role: PhD Student
+role: Research Associate
 permalink: 'team/arian_shamei'
 social:
+    linkedin: https://www.linkedin.com/in/arianshamei
+    google-scholar: https://scholar.google.com/citations?user=1BCVLPcAAAAJ&hl=en&oi=ao
     
     
 education:
