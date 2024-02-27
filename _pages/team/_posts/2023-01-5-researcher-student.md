@@ -20,6 +20,11 @@ awards:
   - "[Second Prize at ÉTS Three Minute Thesis Competition](https://www.youtube.com/watch?v=VEF1xyBTV7Y&t=3s&ab_channel=ETSMTL-Enseignement)"
 
 
+supervision:
+    Supervised
+
+Supervisor:
+
 education:
  - Education
 ---

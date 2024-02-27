@@ -15,6 +15,8 @@ social:
     <> research-gate: https://www.researchgate.net/
 education:
  - Education
+
+
 ---
 
 I am currently pursuing a Bachelor's degree in Electrical Engineering and am keen on contributing to the medical field's technological advancements. Specifically, I am interested in researching embedded systems. Additionally, I am an active member of student clubs such as Integrale, where I aim to increase visibility for LGBTQIA+ students. I have a background in biochemistry and molecular medicine and have already conducted research at the CRCHUM on liver cancer development, utilizing immunological and biochemical analyses. I am currently working under the supervision of Dr. Rachel Bouserhal, analyzing statistics to determine whether changes in visual or auditory conditions in the environment have an impact on speech production.
