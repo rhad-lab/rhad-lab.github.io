@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Alessandro Braga
 image: 21.jpg
-role: Research Associate
+role: Postdoctoral Fellow
 permalink: 'team/alessandro_braga'
 social:
     linkedin: https://www.linkedin.com/in/alessandro-braga-phd-690b81241/ 

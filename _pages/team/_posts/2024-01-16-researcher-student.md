@@ -3,7 +3,7 @@ layout: member
 category: staff
 title: Arian Shamei
 image: 19.jpeg
-role: Research Associate
+role: Postdoctoral Fellow
 permalink: 'team/arian_shamei'
 social:
     linkedin: https://www.linkedin.com/in/arianshamei
