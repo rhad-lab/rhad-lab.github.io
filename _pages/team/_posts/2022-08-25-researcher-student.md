@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: former_student
 title: Alexandre Petrosky
 image: 5.jpg
 role: Master's student

@@ -11,7 +11,7 @@ education:
  - Education
 
 supervision:
-    -Co-supervised
+    Co-supervised
     
 Supervisor:
     Supervisor &colon; Prof. XYZ
