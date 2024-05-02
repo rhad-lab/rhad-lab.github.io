@@ -179,31 +179,9 @@ permalink: /team/
 
 
 
-<!-- Former Staff -->
-<h2><a id="intern"></a>Former staff</h2>
-<div class="row">
-    {% assign members = site.posts | where: 'category', 'former_staff' | sort: 'date' %}
-    {% for member in members %}
-    <div class="col-sm-3 mb-3">
-        <div class="card team-member-card">
-            <a href={{ member.url }}>
-                <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img-top img-thumbnail"
-                    style=" border-radius: 10%;" />
-            </a>
-            <div class="card-body">
-                <h4 class="card-title">{{ member.title }}</h4>
-                <p class="card-text">{{ member.role }}</p>
-            </div>
-        </div>
-    </div>
-    {% endfor %}
-</div>
-
-
 
 <!-- Former Students -->
-<h2><a id="intern"></a>Former students</h2>
+<h2><a id="intern"></a>Former Students and Staff</h2>
 <div class="row">
     {% assign members = site.posts | where: 'category', 'former_student' | sort: 'date' %}
     {% for member in members %}

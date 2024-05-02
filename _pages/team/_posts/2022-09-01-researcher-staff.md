@@ -1,6 +1,6 @@
 ---
 layout: member
-category: former_staff
+category: former_student
 title: Duc Hoa Tran
 image: 7.jpg
 role: Research Associate
