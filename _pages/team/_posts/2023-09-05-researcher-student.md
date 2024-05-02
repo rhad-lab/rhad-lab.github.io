@@ -13,11 +13,11 @@ education:
 
 awards:
 
-  - "[Dana TM4 - Leadership au féminin]"
+  - "Dana TM4 - Leadership au féminin"
   - "[Fondation J.A DeSève - Bourse d'engagement sociétal et environnemental](https://www.jadeseve.com/)"
-  - "[Service de l'enseignement coopératif de l'ÉTS – Excellence au féminin]"
+  - "Service de l'enseignement coopératif de l'ÉTS – Excellence au féminin"
   - "[ÉTS - Palmarès au feminin](https://www.etsmtl.ca/a-propos/equite-diversite-inclusion/femme-et-genie/palmares-feminin-pluriel)"
-  - "[Chapeau les filles - Excelle Science]"
+  - "Chapeau les filles - Excelle Science"
   - "[FOIQ - Bourses universitaires de la Relève Diversité FÉRIQUE](https://www.facebook.com/foiq.qc.ca/posts/pfbid0sabbor6zMyEeNz38uh8817TSyehENkEJgCgkSKoWFznCS5bbScQNwGqKPyAuqV1tl)"
 
 
