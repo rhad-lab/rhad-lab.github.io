@@ -8,6 +8,16 @@ permalink: /project
 
 <h1>Research Projects</h1>
 
+<div class="projects">
+  {% for project in site.data.projects %}
+    <div class="project">
+      <h2>{{ project.title }}</h2>
+      <p>{{ project.description }}</p>
+      <a href="{{ project.student_page }}">Student Page</a>
+    </div>
+  {% endfor %}
+</div>
+
 <style>
   .projects {
     display: flex;
