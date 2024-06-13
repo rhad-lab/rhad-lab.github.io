@@ -2,12 +2,11 @@
 title: "projects"
 layout: default
 sitemap: false
-permalink: /project
+permalink: /projects.html
 ---
 
 <ul class="list-unstyled">
     {% for project in site.data.projects %}
-
     
         <div class="row gx-5"  style="margin:20px;padding:20px;background-color:#fafafa;border-radius: 15px;border:1px solid #e8e8e8"> 
             <div class="col-md-6 mb-4">
@@ -27,8 +26,6 @@ permalink: /project
               <p class="text-muted">
                 {{ project.content_summary }}
               </p>
-              <a href= "projects/{{project.url}}" target="_blank" >
-              <button type="button" class="btn btn-primary">Read more</button></a>
             </div>
           </div>
 
