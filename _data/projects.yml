@@ -1,11 +1,12 @@
-
-- title: "Project Title 1"
-  description: "This is the description for project 1."
+- title: "Lorem Ipsum Project 1"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   student_page: "http://linktostudentpage1.com"
-  image: 5.jpg
-
-
-- title: "Project Title 2"
-  description: "This is the description for project 2."
+  image: "images/news/1.jpg"
+- title: "Lorem Ipsum Project 2"
+  description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   student_page: "http://linktostudentpage2.com"
-  image: 4.jpg
+  image: "images/news/2.jpg"
+- title: "Lorem Ipsum Project 3"
+  description: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  student_page: "http://linktostudentpage3.com"
+  image: "images/news/3.jpg"
