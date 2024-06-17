@@ -1,13 +1,11 @@
 
-- student: Alexandre Petrosky
-  title: Characterization of a hearable for health monitoring with an inclusive form factor
-  text: The diminishing size of sensors has opened the door for multi-sensor hearables. This is beneficial because added sensors could be used for data augmentation as well as signal denoising. In addition, to ensure that these hearables are accessible to most of the population, their form factor must take into account reduced dexterity yet remain relatively small. It is of interest to investigate the benefit of including Photoplethysmo- gram (PPG) or an inertial measurement unit (IMU) into the hearable and how it could affect its form factor.
-  content_summary: "The diminishing size of sensors has opened the door for multi-sensor heara..."
-  picture_link: 5.jpg
+- title: "Project Title 1"
+  description: "This is the description for project 1."
+  student_page: "http://linktostudentpage1.com"
+  image: 5.jpg
 
 
-- student: Malahat
-  title: blablabla 
-  text: blabla The diminishing size of sensors has opened the door for multi-sensor hearables. This is beneficial because added sensors could be used for data augmentation as well as signal denoising. In addition, to ensure that these hearables are accessible to most of the population, their form factor must take into account reduced dexterity yet remain relatively small. It is of interest to investigate the benefit of including Photoplethysmo- gram (PPG) or an inertial measurement unit (IMU) into the hearable and how it could affect its form factor.
-  content_summary: "The diminishing size of sensors has opened the door for multi-sensor heara..."
-  picture_link: 4.jpg
+- title: "Project Title 2"
+  description: "This is the description for project 2."
+  student_page: "http://linktostudentpage2.com"
+  image: 4.jpg
