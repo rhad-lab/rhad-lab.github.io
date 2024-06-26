@@ -44,7 +44,8 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
+plugins:
+  - jekyll-redirect-from
 # Markdown Processing
 kramdown:
   input: GFM
