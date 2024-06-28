@@ -1,85 +1,120 @@
 [
 	{
-		"id": "http://zotero.org/users/1814621/items/E78TR7HE",
-		"type": "article-journal",
-		"title": "The effect of occluding the ear on variations in voice level and fundamental frequency with changing background noise level and talker-to-listener distance: a pilot study",
+		"id": "http://zotero.org/users/1814621/items/INR5UCI3",
+		"type": "paper-conference",
+		"container-title": "Canadian Acoustics",
+		"note": "issue: 3",
+		"page": "86–87",
+		"title": "The effect of vowel lengthening on the intelligibility of occluded Lombard speech",
+		"volume": "50",
 		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xinyi"
+			},
+			{
+				"family": "Clayards",
+				"given": "Meghan"
+			},
 			{
 				"family": "Bouserhal",
 				"given": "Rachel"
-			},
-			{
-				"family": "MacDonald",
-				"given": "Ewen"
-			},
-			{
-				"family": "Falk",
-				"given": "Tiago"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
 			}
 		],
 		"issued": {
 			"date-parts": [
 				[
-					"2016"
+					"2022"
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/CPQ4E5PW",
+		"id": "http://zotero.org/users/1814621/items/HNZQVHLP",
+		"type": "paper-conference",
+		"container-title": "Canadian Acoustics",
+		"note": "issue: 3",
+		"page": "76–77",
+		"title": "Towards detection and classification of non-verbal events and biosignals in hearables",
+		"volume": "50",
+		"author": [
+			{
+				"family": "Mehrban",
+				"given": "Malahat"
+			},
+			{
+				"family": "Voix",
+				"given": "Jérémie"
+			},
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/ZA922PRS",
+		"type": "paper-conference",
+		"container-title": "Canadian Acoustics= Acoustique Canadienne",
+		"note": "issue: 3",
+		"page": "76–77",
+		"publisher": "Canadian Acoustical Association",
+		"title": "Enhancing automatic speech recognition of a regional dialect: A pilot study with québécois french",
+		"volume": "51",
+		"author": [
+			{
+				"family": "Zhang",
+				"given": "Xinyi"
+			},
+			{
+				"family": "Berger",
+				"given": "Lucia Eve"
+			},
+			{
+				"family": "Tran",
+				"given": "Duc-Hoa"
+			},
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/8JLV4ZBT",
 		"type": "paper-conference",
 		"container-title": "Proceedings of Meetings on Acoustics",
 		"note": "issue: 1",
-		"publisher": "AIP Publishing",
-		"title": "Integration of a distance sensitive wireless communication protocol to hearing protectors equipped with in-ear microphones.",
-		"volume": "19",
+		"page": "050005",
+		"publisher": "Acoustical Society of America",
+		"title": "Interfacing the Tympan open-source hearing aid with an external computer for research on decreased sound tolerance",
+		"volume": "45",
 		"author": [
 			{
-				"family": "Bou Serhal",
-				"given": "Rachel E"
+				"family": "Benesch",
+				"given": "Danielle"
 			},
 			{
-				"family": "Falk",
-				"given": "Tiago H"
+				"family": "Raj",
+				"given": "Kocherla Nithin"
 			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2013"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/SHPYMYAB",
-		"type": "article-journal",
-		"container-title": "International journal of audiology",
-		"issue": "sup1",
-		"note": "publisher: Taylor & Francis",
-		"page": "S13–S20",
-		"title": "Variations in voice level and fundamental frequency with changing background noise level and talker-to-listener distance while wearing hearing protectors: A pilot study",
-		"volume": "55",
-		"author": [
 			{
 				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Macdonald",
-				"given": "Ewen N"
-			},
-			{
-				"family": "Falk",
-				"given": "Tiago H"
+				"given": "Rachel"
 			},
 			{
 				"family": "Voix",
@@ -89,21 +124,25 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2016"
+					"2021"
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/E4Y5254P",
+		"id": "http://zotero.org/users/1814621/items/PV5RPQJ4",
 		"type": "paper-conference",
-		"container-title": "Proceedings of the 5th ISCA/DEGA Workshop on Perceptual Quality of Systems (PQS 2016), Berlin, Germany",
-		"page": "29–31",
-		"title": "Objective speech quality estimation of in-ear microphone speech",
+		"container-title": "Acoustics week in Canada",
+		"publisher": "Canadian Acoustics",
+		"title": "In-ear speech capture on electronic hearing protectors: optimization of the denoising algorithm in transparent mode",
 		"author": [
 			{
-				"family": "Santos",
-				"given": "Joao F"
+				"family": "Delain",
+				"given": "Corentin"
+			},
+			{
+				"family": "Moshgelani",
+				"given": "Farid"
 			},
 			{
 				"family": "Bouserhal",
@@ -112,685 +151,24 @@
 			{
 				"family": "Voix",
 				"given": "Jérémie"
-			},
-			{
-				"family": "Falk",
-				"given": "Tiago H"
 			}
 		],
 		"issued": {
 			"date-parts": [
 				[
-					"2016"
+					"2020"
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/KHK2L5T8",
+		"id": "http://zotero.org/users/1814621/items/VRC9YGVV",
 		"type": "paper-conference",
-		"container-title": "2012 American Control Conference (ACC)",
-		"page": "4727–4732",
-		"publisher": "IEEE",
-		"title": "Application of the extended high gain observer to underactuated mechanical systems",
-		"author": [
-			{
-				"family": "Serhal",
-				"given": "Rachel E Bou"
-			},
-			{
-				"family": "Khalil",
-				"given": "Hassan K"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2012"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/PTWTU9CG",
-		"type": "article-journal",
-		"title": "Modeling speech production in noise for the assessment of vocal effort for use with communication headsets",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			},
-			{
-				"family": "Falk",
-				"given": "Tiago"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2015"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/56RMPJU4",
-		"type": "article-journal",
-		"note": "publisher: Canadian Institute of Mining, Metallurgy and Petroleum",
-		"title": "Protecting workers' hearing while facilitating communication",
-		"author": [
-			{
-				"family": "Bou Serhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Falk",
-				"given": "Tiago H"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2013"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/DFG2UCVF",
-		"type": "article-journal",
-		"title": "Towards a ‘radio-acoustic virtual environment’in noisy work environments",
-		"author": [
-			{
-				"family": "Bou Serhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			},
-			{
-				"family": "Falk",
-				"given": "Tiago H"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2013"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/MWGNXAP9",
-		"type": "article-journal",
-		"container-title": "The Journal of the Acoustical Society of America",
-		"issue": "3",
-		"note": "publisher: ASA",
-		"page": "1321–1331",
-		"title": "In-ear microphone speech quality enhancement via adaptive filtering and artificial bandwidth extension",
-		"volume": "141",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Falk",
-				"given": "Tiago H"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2017"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/QNRPALJQ",
-		"type": "thesis",
-		"genre": "PhD Thesis",
-		"publisher": "Michigan State University",
-		"title": "Experimental testing of the extended high-gain observer as a disturbance estimator",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2011"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/3QS88NUP",
-		"type": "article-journal",
-		"title": "Towards a Radio Acoustical Virtual Environment",
-		"author": [
-			{
-				"family": "Bou Serhal",
-				"given": "Rachel"
-			},
-			{
-				"family": "Falk",
-				"given": "Tiago"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2014"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/ZQ2FLMSH",
-		"type": "article-journal",
-		"title": "Modeling speech production in noise to code vocal effort for use with communication headsets",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Falk",
-				"given": "Tiago H"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2015"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/NYXECD29",
-		"type": "paper-conference",
-		"container-title": "2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
-		"page": "5108–5112",
-		"publisher": "IEEE",
-		"title": "On the potential for artificial bandwidth extension of bone and tissue conducted speech: A mutual information study",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Falk",
-				"given": "Tiago H"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2015"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/6V2QAD88",
-		"type": "article-journal",
-		"container-title": "Journal of Speech, Language, and Hearing Research",
-		"issue": "12",
-		"note": "publisher: American Speech-Language-Hearing Association",
-		"page": "3393–3403",
-		"title": "Modeling speech level as a function of background noise level and talker-to-listener distance for talkers wearing hearing protection devices",
-		"volume": "60",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Bockstael",
-				"given": "Annelies"
-			},
-			{
-				"family": "MacDonald",
-				"given": "Ewen"
-			},
-			{
-				"family": "Falk",
-				"given": "Tiago H"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2017"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/UMNBNX67",
-		"type": "article-journal",
-		"title": "Speech quality enhancement of in-ear microphone",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel"
-			},
-			{
-				"family": "Falk",
-				"given": "Tiago H"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2017"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/Y37X636W",
-		"type": "article-journal",
-		"note": "publisher: International Speech Communication Association",
-		"title": "Classification of nonverbal human produced audio events: a pilot study",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Chabot",
-				"given": "Philippe"
-			},
-			{
-				"family": "Sarria-Paja",
-				"given": "Milton"
-			},
-			{
-				"family": "Cardinal",
-				"given": "Patrick"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2018"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/RP85NDZH",
-		"type": "article-journal",
-		"container-title": "The Journal of the Acoustical Society of America",
-		"issue": "2",
-		"note": "publisher: AIP Publishing",
-		"page": "1069–1077",
-		"title": "An in-ear speech database in varying conditions of the audio-phonation loop",
-		"volume": "145",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Bernier",
-				"given": "Antoine"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/T8MAZ6L9",
-		"type": "document",
-		"title": "Device and method for improving the quality of in-ear microphone signals in noisy environments",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			},
-			{
-				"family": "Tiago",
-				"given": "FALK"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2020",
-					9,
-					22
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/QU26UIEF",
-		"type": "article-journal",
-		"note": "publisher: Canadian Acoustical Association",
-		"title": "Classe techno\" Bruit\": Acoustic workshop for high school students at Université du Québec (ÉTS)",
-		"author": [
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			},
-			{
-				"family": "Carillo",
-				"given": "Kévin"
-			},
-			{
-				"family": "Bouchard-Roy",
-				"given": "Jacob"
-			},
-			{
-				"family": "Saint-Gaudens",
-				"given": "Hugo"
-			},
-			{
-				"family": "Crétot-Richert",
-				"given": "Gabrielle"
-			},
-			{
-				"family": "Bouserhal",
-				"given": "Rachel"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/PVX92U75",
-		"type": "article-journal",
+		"container-title": "International Congress in Acoustics",
 		"title": "The potential of restorative spaces on noise-related wellbeing in schools: preliminary results of a documentation study of three different spaces in Quebec schools.",
 		"author": [
 			{
-				"family": "VERDUYCKT",
-				"given": "Ingrid"
-			},
-			{
-				"family": "BOUSERHAL",
-				"given": "Rachel"
-			},
-			{
-				"family": "LACERDA",
-				"given": "Adriana"
-			},
-			{
-				"family": "CHANG",
-				"given": "Tiffany"
-			},
-			{
-				"family": "CHAHINE",
-				"given": "Nibal"
-			},
-			{
-				"family": "BORGES",
-				"given": "Cécilia"
-			},
-			{
-				"family": "BOCKSTAEL",
-				"given": "Annelies"
-			}
-		]
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/GBL2C3D4",
-		"type": "article-journal",
-		"title": "SpEAR: An open-access speech database in varying conditions of the",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Bernier",
-				"given": "Antoine"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		]
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/S652W7G2",
-		"type": "article-journal",
-		"container-title": "International Journal of Audiology",
-		"issue": "1",
-		"note": "publisher: Taylor & Francis",
-		"page": "60–69",
-		"title": "Method for protected noise exposure level assessment under an in-ear hearing protection device: a pilot study",
-		"volume": "60",
-		"author": [
-			{
-				"family": "Nadon",
-				"given": "Vincent"
-			},
-			{
-				"family": "Bonnet",
-				"given": "Fabien"
-			},
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Bernier",
-				"given": "Antoine"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/YR7MS8HM",
-		"type": "article-journal",
-		"container-title": "Applied Acoustics",
-		"note": "publisher: Elsevier",
-		"page": "107643",
-		"title": "Detection and classification of human-produced nonverbal audio events",
-		"volume": "171",
-		"author": [
-			{
-				"family": "Chabot",
-				"given": "Philippe"
-			},
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Cardinal",
-				"given": "Patrick"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/2H8YAQEY",
-		"type": "document",
-		"title": "In-ear nonverbal audio events classification system and method",
-		"author": [
-			{
-				"family": "Voix",
-				"given": "Jeremie"
-			},
-			{
-				"family": "Montsarrat-Chanon",
-				"given": "Hami"
-			},
-			{
-				"family": "Serhal",
-				"given": "Rachel Bou"
-			},
-			{
-				"family": "Cardinal",
-				"given": "Patrick"
-			},
-			{
-				"family": "Chabot",
-				"given": "Philippe"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2023",
-					10,
-					3
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/2M8AK9JG",
-		"type": "article-journal",
-		"title": "The influence of the isolation and occlusion effects on the classical singer's voice",
-		"author": [
-			{
-				"family": "Goff",
-				"given": "Allyson"
-			},
-			{
-				"family": "Drees",
-				"given": "Elliot"
-			},
-			{
-				"family": "Bernier",
-				"given": "Antoine"
-			},
-			{
-				"family": "Bouserhal",
-				"given": "Rachel"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			},
-			{
-				"family": "Cossette",
-				"given": "Isabelle"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/6WGX48TK",
-		"type": "article-journal",
-		"title": "Spear: A speech database for the advancement of intra-aural wearable technology",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2019"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/7EKV2BCS",
-		"type": "article-journal",
-		"note": "publisher: Deutsche Gesellschaft für Akustik eV (DEGA)",
-		"title": "The potential of restorative spaces on noise-related wellbeing in schools",
-		"author": [
-			{
-				"family": "Verduyckt",
+				"family": "Verduykt",
 				"given": "Ingrid"
 			},
 			{
@@ -827,188 +205,35 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/PYWLJIZ3",
-		"type": "thesis",
-		"genre": "PhD Thesis",
-		"publisher": "École de technologie supérieure",
-		"title": "Speech bandwidth extension and vocal effort coding for enhanced communication in noisy industrial environments",
+		"id": "http://zotero.org/users/1814621/items/U3S52VTS",
+		"type": "paper-conference",
+		"container-title": "International Congress on Sound and Vibration",
+		"publisher": "Canadian Acoustical Association",
+		"title": "Classe techno\" Bruit\": Acoustic workshop for high school students at Université du Québec (ÉTS)",
 		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2016"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/9GYYBSV5",
-		"type": "article-journal",
-		"container-title": "MANUSCRIPT-BASED THESIS PRESENTED TO (2016)",
-		"title": "Improving the quality of in-ear microphone speech via adaptive filtering and artificial bandwidth extension",
-		"volume": "25",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Falk",
-				"given": "Tiago H"
-			},
-			{
-				"family": "Voix",
-				"given": "Jeremie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2016"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/H8LURJJM",
-		"type": "article-journal",
-		"title": "Managing auditory sensitivities in autism: The potential of smart hearing protection",
-		"author": [
-			{
-				"family": "Benesch",
-				"given": "Danielle"
-			},
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Blain-Moraes",
-				"given": "Stefanie"
-			},
 			{
 				"family": "Voix",
 				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/I7HTIDMT",
-		"type": "article-journal",
-		"title": "In-ear speech capture on electronic hearing protectors: optimization of the denoising algorithm in transparent mode",
-		"author": [
-			{
-				"family": "Delain",
-				"given": "Corentin"
 			},
 			{
-				"family": "Moshgelani",
-				"given": "Farid"
+				"family": "Carillo",
+				"given": "Kévin"
 			},
 			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
+				"family": "Bouchard-Roy",
+				"given": "Jacob"
 			},
 			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2020"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/ILNS8DHV",
-		"type": "article-journal",
-		"container-title": "The Journal of the Acoustical Society of America",
-		"issue": "4_Supplement",
-		"note": "publisher: AIP Publishing",
-		"page": "A19–A19",
-		"title": "Hearables for managing auditory sensitivities using heart rate variability",
-		"volume": "149",
-		"author": [
+				"family": "Saint-Gaudens",
+				"given": "Hugo"
+			},
 			{
-				"family": "Benesch",
-				"given": "Danielle"
+				"family": "Crétot-Richert",
+				"given": "Gabrielle"
 			},
 			{
 				"family": "Bouserhal",
 				"given": "Rachel"
-			},
-			{
-				"family": "Benesch",
-				"given": "Jérémie Voix"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/Q47J75NK",
-		"type": "article-journal",
-		"container-title": "Journal of the Audio Engineering Society",
-		"issue": "9",
-		"note": "publisher: Audio Engineering Society",
-		"page": "618–631",
-		"title": "Design and assessment of an active musician's hearing protection device with occlusion effect reduction",
-		"volume": "69",
-		"author": [
-			{
-				"family": "Bernier",
-				"given": "Antoine"
-			},
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			},
-			{
-				"family": "Herzog",
-				"given": "Philippe"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/IB9ZZ8CX",
-		"type": "document",
-		"publisher": "MDPI",
-		"title": "The 13th International Conference on Advances in Quantitative Laryngology, Voice and Speech Research (June 2–4, 2019, Montreal, Quebec, Canada)",
-		"author": [
-			{
-				"family": "Mongeau",
-				"given": "Luc"
 			}
 		],
 		"issued": {
@@ -1020,54 +245,26 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/7GVY8ZPL",
-		"type": "article-journal",
-		"container-title": "MANUSCRIPT-BASED THESIS PRESENTED TO",
-		"note": "publisher: ÉCOLE DE TECHNOLOGIE SUPÉRIEURE",
-		"page": "99",
-		"title": "PROTECTING MINERS’HEARING WHILE FACILITATING COMMUNICATION",
-		"author": [
-			{
-				"family": "Serhal",
-				"given": "Rachel E Bou"
-			},
-			{
-				"family": "Voix",
-				"given": "J"
-			},
-			{
-				"family": "Falk",
-				"given": "T"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2016"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/TYIU984L",
+		"id": "http://zotero.org/users/1814621/items/8BZ3YSLC",
 		"type": "paper-conference",
-		"container-title": "Proceedings of Meetings on Acoustics",
-		"note": "issue: 1",
-		"publisher": "AIP Publishing",
-		"title": "Interfacing the Tympan open-source hearing aid with an external computer for research on decreased sound tolerance",
-		"volume": "45",
+		"publisher": "International Speech Communication Association",
+		"title": "Classification of nonverbal human produced audio events: a pilot study",
 		"author": [
-			{
-				"family": "Benesch",
-				"given": "Danielle"
-			},
-			{
-				"family": "Raj",
-				"given": "Kocherla Nithin"
-			},
 			{
 				"family": "Bouserhal",
 				"given": "Rachel"
+			},
+			{
+				"family": "Chabot",
+				"given": "Philippe"
+			},
+			{
+				"family": "Sarria-Paja",
+				"given": "Milton"
+			},
+			{
+				"family": "Cardinal",
+				"given": "Patrick"
 			},
 			{
 				"family": "Voix",
@@ -1077,207 +274,13 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2021"
+					"2018"
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/6D9HVR4V",
-		"type": "article-journal",
-		"container-title": "Canadian Acoustics",
-		"issue": "3",
-		"page": "42–43",
-		"title": "Development of an intra-aural protective device for hearing-impaired individuals working in noisy environments",
-		"volume": "49",
-		"author": [
-			{
-				"family": "Ollivier",
-				"given": "Solenn"
-			},
-			{
-				"family": "Nélisse",
-				"given": "Hugues"
-			},
-			{
-				"family": "Bonnet",
-				"given": "Fabien"
-			},
-			{
-				"family": "Bouserhal",
-				"given": "Rachel"
-			},
-			{
-				"family": "Giguère",
-				"given": "Christian"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2021"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/VSH3ZUF5",
-		"type": "article-journal",
-		"title": "Design considerations for a dual hearing aid and hearing protection device for individuals with hearing loss",
-		"author": [
-			{
-				"family": "Ollivier",
-				"given": "S"
-			},
-			{
-				"family": "Voix",
-				"given": "J"
-			},
-			{
-				"family": "Bonnet",
-				"given": "F"
-			},
-			{
-				"family": "Bouserhal",
-				"given": "R"
-			},
-			{
-				"family": "Giguère",
-				"given": "C"
-			},
-			{
-				"family": "Nélisse",
-				"given": "H"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2022"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/8WUVTWVD",
-		"type": "article-journal",
-		"title": "SpEAR: A speech database for the advancement of hearing protection devices equipped with in-ear microphones",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2020"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/BINWXF5L",
-		"type": "article-journal",
-		"title": "Investigation of hearing device technologies forindividuals with hearing impairment in noisy workplaces",
-		"author": [
-			{
-				"family": "Ollivier",
-				"given": "Solenn"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			},
-			{
-				"family": "Giguère",
-				"given": "Christian"
-			},
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Bonnet",
-				"given": "Fabien"
-			},
-			{
-				"family": "Nélisse",
-				"given": "Hugues"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2022"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/D334HKTY",
-		"type": "article-journal",
-		"title": "Les dispositives intra-auriculaire intelligente et leur rôle dans l'avenir de la communication et de la surveillance continue de l’état de santé",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2022"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/WA6LBID8",
-		"type": "article-journal",
-		"title": "Signal processing and machine learning: friends not enemies",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2022"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/P8ETHHVV",
-		"type": "article-journal",
-		"title": "Hearable and their potential as a tool in early disease detection",
-		"author": [
-			{
-				"family": "Bouserhal",
-				"given": "Rachel"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2022"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/7YA5FEUL",
+		"id": "http://zotero.org/users/1814621/items/CXVT264V",
 		"type": "article-journal",
 		"container-title": "Applied Acoustics",
 		"note": "publisher: Elsevier",
@@ -1299,7 +302,7 @@
 			},
 			{
 				"family": "Bouserhal",
-				"given": "Rachel E"
+				"given": "Rachel"
 			}
 		],
 		"issued": {
@@ -1311,85 +314,26 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/UVL4PWED",
+		"id": "http://zotero.org/users/1814621/items/4IQDBG3I",
 		"type": "article-journal",
-		"title": "Investigation of hearing device technologies for hearing-impaired individuals in noisy workplaces",
+		"note": "publisher: Applied Acoustics",
+		"title": "Stress classification with in-ear heartbeat sounds",
 		"author": [
 			{
-				"family": "Ollivier",
-				"given": "Solenn"
+				"family": "Benesch",
+				"given": "Danielle"
 			},
 			{
-				"family": "Voix",
-				"given": "Jérémie"
+				"family": "Villate",
+				"given": "Bérangère"
 			},
 			{
-				"family": "Giguère",
-				"given": "Christian"
+				"family": "Vinet",
+				"given": "Alain"
 			},
 			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			},
-			{
-				"family": "Bonnet",
-				"given": "Fabien"
-			},
-			{
-				"family": "Nélisse",
-				"given": "Hugues"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2022"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/EZHL5S76",
-		"type": "article-journal",
-		"container-title": "Canadian Acoustics",
-		"issue": "3",
-		"page": "86–87",
-		"title": "The effect of vowel lengthening on the intelligibility of occluded Lombard speech",
-		"volume": "50",
-		"author": [
-			{
-				"family": "Zhang",
-				"given": "Xinyi"
-			},
-			{
-				"family": "Clayards",
-				"given": "Meghan"
-			},
-			{
-				"family": "Bouserhal",
-				"given": "Rachel"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2022"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/KGHGGIEC",
-		"type": "article-journal",
-		"container-title": "Canadian Acoustics",
-		"issue": "3",
-		"page": "76–77",
-		"title": "Toward detecting and classification non-verbal events and biosignals in hearables",
-		"volume": "50",
-		"author": [
-			{
-				"family": "Mehrban",
-				"given": "Malahat"
+				"family": "Hébert",
+				"given": "Sylvie"
 			},
 			{
 				"family": "Voix",
@@ -1403,54 +347,20 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2022"
+					"2024"
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/8G8MFDTY",
-		"type": "article-journal",
-		"container-title": "Canadian Acoustics= Acoustique Canadienne",
-		"issue": "3",
-		"note": "publisher: Canadian Acoustical Association",
-		"page": "76–77",
-		"title": "Enhancing automatic speech recognition of a regional dialect: A pilot study with québécois french",
-		"volume": "51",
-		"author": [
-			{
-				"family": "Zhang",
-				"given": "Xinyi"
-			},
-			{
-				"family": "Berger",
-				"given": "Lucia Eve"
-			},
-			{
-				"family": "Tran",
-				"given": "Duc-Hoa"
-			},
-			{
-				"family": "Bouserhal",
-				"given": "Rachel E"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2023"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/2UAD3ZMK",
+		"id": "http://zotero.org/users/1814621/items/I74VC5X5",
 		"type": "article-journal",
 		"container-title": "International Journal of Environmental Research and Public Health",
+		"DOI": "10.3390/ijerph21010084",
 		"issue": "1",
 		"note": "publisher: MDPI",
 		"page": "84",
-		"title": "Student’s self-reported experience of soundscape: The link between noise, psychological and physical well-being",
+		"title": "Student’s Self-Reported Experience of Soundscape: The Link between Noise, Psychological and Physical Well-Being",
 		"volume": "21",
 		"author": [
 			{
@@ -1479,7 +389,7 @@
 			},
 			{
 				"family": "Bouserhal",
-				"given": "Rachel E"
+				"given": "Rachel"
 			}
 		],
 		"issued": {
@@ -1491,62 +401,478 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/GHKVFVG5",
-		"type": "document",
-		"title": "In-ear nonverbal audio events classification system and method",
+		"id": "http://zotero.org/users/1814621/items/Y6RZ2DKZ",
+		"type": "article-journal",
+		"container-title": "The Journal of the Acoustical Society of America",
+		"issue": "3",
+		"note": "publisher: Acoustical Society of America",
+		"page": "1321–1331",
+		"title": "In-ear microphone speech quality enhancement via adaptive filtering and artificial bandwidth extension",
+		"volume": "141",
 		"author": [
 			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			},
+			{
+				"family": "Falk",
+				"given": "Tiago H"
+			},
+			{
 				"family": "Voix",
-				"given": "Jeremie"
-			},
-			{
-				"family": "Montsarrat-Chanon",
-				"given": "Hami"
-			},
-			{
-				"family": "Serhal",
-				"given": "Rachel Bou"
-			},
-			{
-				"family": "Cardinal",
-				"given": "Patrick"
-			},
-			{
-				"family": "Chabot",
-				"given": "Philippe"
+				"given": "Jérémie"
 			}
 		],
 		"issued": {
 			"date-parts": [
 				[
-					"2024",
-					1,
-					25
+					"2017"
 				]
 			]
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/H5VI93UD",
+		"id": "http://zotero.org/users/1814621/items/WXGLMRQQ",
 		"type": "article-journal",
-		"title": "INTERACSON: AN IMMERSIVE AUDITORY PLATFORM FOR AWARENESS ON NOISE-INDUCED HEARING RISKS",
+		"container-title": "Journal of Speech, Language, and Hearing Research",
+		"issue": "12",
+		"note": "publisher: ASHA",
+		"page": "3393–3403",
+		"title": "Modeling speech level as a function of background noise level and talker-to-listener distance for talkers wearing hearing protection devices",
+		"volume": "60",
 		"author": [
 			{
-				"family": "Pinsonnault-Skvarenina",
-				"given": "Alexis"
+				"family": "Bouserhal",
+				"given": "Rachel"
+			},
+			{
+				"family": "Bockstael",
+				"given": "Annelies"
+			},
+			{
+				"family": "MacDonald",
+				"given": "Ewen"
+			},
+			{
+				"family": "Falk",
+				"given": "Tiago H"
+			},
+			{
+				"family": "Voix",
+				"given": "Jérémie"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/IQRHFAMR",
+		"type": "article-journal",
+		"container-title": "The Journal of the Acoustical Society of America",
+		"issue": "2",
+		"note": "publisher: Acoustical Society of America",
+		"page": "1069–1077",
+		"title": "An in-ear speech database in varying conditions of the audio-phonation loop",
+		"volume": "145",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			},
+			{
+				"family": "Bernier",
+				"given": "Antoine"
+			},
+			{
+				"family": "Voix",
+				"given": "Jérémie"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2019"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/3LLEP63H",
+		"type": "article-journal",
+		"container-title": "Applied Acoustics",
+		"note": "publisher: Elsevier",
+		"page": "107643",
+		"title": "Detection and classification of human-produced nonverbal audio events",
+		"volume": "171",
+		"author": [
+			{
+				"family": "Chabot",
+				"given": "Philippe"
 			},
 			{
 				"family": "Bouserhal",
 				"given": "Rachel"
 			},
 			{
-				"family": "Pinta",
-				"given": "Valentin"
+				"family": "Cardinal",
+				"given": "Patrick"
 			},
 			{
 				"family": "Voix",
 				"given": "Jérémie"
 			}
-		]
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/RNDE6LGQ",
+		"type": "article-journal",
+		"container-title": "Journal of the Audio Engineering Society",
+		"issue": "9",
+		"note": "publisher: Audio Engineering Society",
+		"page": "618–631",
+		"title": "Design and assessment of an active musician's hearing protection device with occlusion effect reduction",
+		"volume": "69",
+		"author": [
+			{
+				"family": "Bernier",
+				"given": "Antoine"
+			},
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			},
+			{
+				"family": "Voix",
+				"given": "Jérémie"
+			},
+			{
+				"family": "Herzog",
+				"given": "Philippe"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/B4T734SF",
+		"type": "article-journal",
+		"container-title": "International Journal of Audiology",
+		"issue": "1",
+		"note": "publisher: Taylor & Francis",
+		"page": "60–69",
+		"title": "Method for protected noise exposure level assessment under an in-ear hearing protection device: a pilot study",
+		"volume": "60",
+		"author": [
+			{
+				"family": "Nadon",
+				"given": "Vincent"
+			},
+			{
+				"family": "Bonnet",
+				"given": "Fabien"
+			},
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			},
+			{
+				"family": "Bernier",
+				"given": "Antoine"
+			},
+			{
+				"family": "Voix",
+				"given": "Jérémie"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/5S552C9I",
+		"type": "article-journal",
+		"container-title": "Applied Acoustics",
+		"note": "publisher: Elsevier",
+		"page": "107643",
+		"title": "Detection and classification of human-produced nonverbal audio events",
+		"volume": "171",
+		"author": [
+			{
+				"family": "Chabot",
+				"given": "Philippe"
+			},
+			{
+				"family": "Bouserhal",
+				"given": "Rachel E"
+			},
+			{
+				"family": "Cardinal",
+				"given": "Patrick"
+			},
+			{
+				"family": "Voix",
+				"given": "Jérémie"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/TQ7ZPIXS",
+		"type": "article-journal",
+		"container-title": "International journal of audiology",
+		"issue": "sup1",
+		"note": "publisher: Taylor & Francis",
+		"page": "S13–S20",
+		"title": "Variations in voice level and fundamental frequency with changing background noise level and talker-to-listener distance while wearing hearing protectors: A pilot study",
+		"volume": "55",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			},
+			{
+				"family": "Macdonald",
+				"given": "Ewen N"
+			},
+			{
+				"family": "Falk",
+				"given": "Tiago H"
+			},
+			{
+				"family": "Voix",
+				"given": "Jérémie"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/VAHQ5RQU",
+		"type": "manuscript",
+		"event-place": "Rocehster, Minnesota, USA (Hybrid)",
+		"publisher-place": "Rocehster, Minnesota, USA (Hybrid)",
+		"title": "Hearables: A Promising Tool for Continuous Health Monitoring",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/GRV8DRJN",
+		"type": "manuscript",
+		"event-place": "Virtual",
+		"publisher-place": "Virtual",
+		"title": "Hearing & Hearables: Potential of Better Understanding Alzheimer’s Disease",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			},
+			{
+				"family": "Niemczak",
+				"given": "Chris"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					11
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/QK9832HX",
+		"type": "manuscript",
+		"event-place": "McGill University, Montréal, Canada",
+		"publisher-place": "McGill University, Montréal, Canada",
+		"title": "Signal Processing and Machine Learning: friends not enemies.",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/6632AZQM",
+		"type": "manuscript",
+		"event-place": "Université de Montréal, Montréal, Canada",
+		"publisher-place": "Université de Montréal, Montréal, Canada",
+		"title": "Les dispositives intra-auriculaire intelligente et leur rôle dans l'avenir de la communication et de la surveillance continue de l’état de santé",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/8U694ZG8",
+		"type": "manuscript",
+		"event-place": "Centre Montréal, Montréal, Canada",
+		"publisher-place": "Centre Montréal, Montréal, Canada",
+		"title": "Hearables and their potential as a tool in early disease detection",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					9
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/NW7VCARF",
+		"type": "manuscript",
+		"event-place": "Saguenay-Lac-Saint-Jean, Québec, Canada",
+		"publisher-place": "Saguenay-Lac-Saint-Jean, Québec, Canada",
+		"title": "Est-ce que vous m’entendez?\": L’impact du bruit sur la santé, le fonctionnement et le bien-être au travail et la manière de le gérer",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			},
+			{
+				"family": "Verduykt",
+				"given": "Ingrid"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2018",
+					10
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/JTXHK4W4",
+		"type": "manuscript",
+		"event-place": "Virtual",
+		"publisher-place": "Virtual",
+		"title": "Hearables and their role in the future of communication and continuous health monitoring",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					2
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/GGWSSCRV",
+		"type": "manuscript",
+		"event-place": "École de technologie supérieure, Montréal, Canada",
+		"publisher-place": "École de technologie supérieure, Montréal, Canada",
+		"title": "Hearables and their role in the future of communication and continuous health monitoring",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					6
+				]
+			]
+		}
+	},
+	{
+		"id": "http://zotero.org/users/1814621/items/D27CIJ5S",
+		"type": "manuscript",
+		"event-place": "Centre for Interdisciplinary Research in Music Media and Technology, Montréal, Canada",
+		"publisher-place": "Centre for Interdisciplinary Research in Music Media and Technology, Montréal, Canada",
+		"title": "The 'Radio-Acoustical Virtual Environment’(RAVE): improving communication for workers wearing hearing protection devices in noisy industrial environments",
+		"author": [
+			{
+				"family": "Bouserhal",
+				"given": "Rachel"
+			}
+		],
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					11
+				]
+			]
+		}
 	}
 ]
