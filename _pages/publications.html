@@ -9,51 +9,10 @@ permalink: /publications/
 
 <h1>{{page.title}}</h1>
 
-        <h2>Journals</h2>
-        {% for publi in site.data.publications %}
-        {% if publi.type == "article-journal" %}
-        <div class="panel-heading">
-            <a data-toggle="collapse" data-parent="#accordion"
-               href="#collapse{{forloop.index}}"
-               style="color: inherit;">
-            <!-- authors -->
-            {% assign authors = "" | split:"/" %}
-            {% for author in publi.author %}
-                {% assign authors = authors | push: author.family %}
-            {% endfor %}
-            {{ authors | array_to_sentence_string }},
-
-            <!-- title with link -->
-            "{{ publi.title }}",
-
-            <!-- container -->
-            <b>{{ publi.container-title }}</b>, 
-
-            {% if publi.volume %}
-            vol. {{ publi.volume }}, 
-            {% endif %}
-
-            <!-- issued date -->
-            {{ publi.issued.date-parts | jsonify | slice: 3,4 }}.
-
-            <!-- DOI -->
-            {% if publi.DOI %}
-                <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
-            {% endif %}
-            </a>
-        </div>
-    {% endif %}
-    {% endfor %}
-    </div>
-
-
-        <h2>Conference Proceedings and Posters</h2>
-        {% for publi in site.data.publications %}
-        {% if publi.type == "paper-conference" %}
-        <div class="panel-heading">
-            <a data-toggle="collapse" data-parent="#accordion"
-            href="#collapse{{forloop.index}}"
-            style="color: inherit;">
+<h2>Journals</h2>
+{% for publi in site.data.publications %}
+{% if publi.type == "article-journal" %}
+    <div class="panel-heading">
         <!-- authors -->
         {% assign authors = "" | split:"/" %}
         {% for author in publi.author %}
@@ -61,26 +20,83 @@ permalink: /publications/
         {% endfor %}
         {{ authors | array_to_sentence_string }},
 
-             <!-- title with link -->
-             "{{ publi.title }}",
+        <!-- title with link -->
+        "{{ publi.title }}",
 
-             <!-- container -->
-            <b>{{ publi.container-title }}</b>, 
+        <!-- container -->
+        <b>{{ publi.container-title }}</b>, 
 
-            {% if publi.volume %}
-            vol. {{ publi.volume }}, 
-            {% endif %}
+        {% if publi.volume %}
+          vol. {{ publi.volume }}, 
+        {% endif %}
 
-            <!-- issued date -->
-            {{ publi.issued.date-parts | jsonify | slice: 3,4 }}.
+        <!-- issued date -->
+        {{ publi.issued.date-parts | jsonify | slice: 3,4 }}.
 
-             <!-- DOI -->
-            {% if publi.DOI %}
+        <!-- DOI -->
+        {% if publi.DOI %}
             <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
-            {% endif %}
-        </a>
-        </div>
-    {% endif %}
-    {% endfor %}
+        {% endif %}
     </div>
+{% endif %}
+{% endfor %}
+
+
+<h2>Conference Proceedings and Posters</h2>
+{% for publi in site.data.publications %}
+{% if publi.type == "paper-conference" %}
+<div class="panel-heading">
+    <!-- authors -->
+    {% assign authors = "" | split:"/" %}
+    {% for author in publi.author %}
+        {% assign authors = authors | push: author.family %}
+    {% endfor %}
+    {{ authors | array_to_sentence_string }},
+
+     <!-- title with link -->
+     "{{ publi.title }}",
+
+     <!-- container -->
+    <b>{{ publi.container-title }}</b>, 
+
+    {% if publi.volume %}
+      vol. {{ publi.volume }}, 
+    {% endif %}
+
+    <!-- issued date -->
+    {{ publi.issued.date-parts | jsonify | slice: 3,4 }}.
+
+     <!-- DOI -->
+    {% if publi.DOI %}
+      <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+    {% endif %}
 </div>
+{% endif %}
+{% endfor %}
+
+<h2>Invited Talks</h2>
+{% for publi in site.data.publications %}
+{% if publi.type == "manuscript" %}
+<div class="panel-heading">
+    <!-- authors -->
+    {% assign authors = "" | split:"/" %}
+    {% for author in publi.author %}
+        {% assign authors = authors | push: author.family %}
+    {% endfor %}
+    {{ authors | array_to_sentence_string }},
+
+     <!-- title with link -->
+     "{{ publi.title }}",
+
+     <!-- place -->
+    <b>{{ publi.event-place }}</b>, 
+
+    {% if publi.volume %}
+      vol. {{ publi.volume }}, 
+    {% endif %}
+
+    <!-- issued date -->
+    {{ publi.issued.date-parts | jsonify | slice: 3,4 }}.
+</div>
+{% endif %}
+{% endfor %}
