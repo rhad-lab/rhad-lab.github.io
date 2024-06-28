@@ -21,7 +21,7 @@ permalink: /publications/
             <!-- authors -->
             {% assign authors = "" | split:"/" %}
             {% for author in publi.author %}
-                {% assign authors = authors | push: author.family %}
+                {% assign authors = authors | push: author.family, author.given %}
             {% endfor %}
             {{ authors | array_to_sentence_string }},
 
@@ -47,4 +47,42 @@ permalink: /publications/
     {% endif %}
     {% endfor %}
     </div>
+</div>
+
+<h2>Conference Proceedings</h2>
+{% for publi in site.data.publications %}
+{% if publi.type == "paper-conference" %}
+<div class="panel-heading">
+    <a data-toggle="collapse" data-parent="#accordion"
+       href="#collapse{{forloop.index}}"
+       style="color: inherit;">
+    <!-- authors -->
+    {% assign authors = "" | split:"/" %}
+    {% for author in publi.author %}
+        {% assign authors = authors | push: author.family, author.given %}
+    {% endfor %}
+    {{ authors | array_to_sentence_string }},
+
+    <!-- title with link -->
+    "{{ publi.title }}",
+
+    <!-- container -->
+    <b>{{ publi.container-title }}</b>, 
+
+    {% if publi.volume %}
+    vol. {{ publi.volume }}, 
+    {% endif %}
+
+    <!-- issued date -->
+    {{ publi.issued.date-parts | jsonify | slice: 3,4 }}.
+
+    <!-- DOI -->
+    {% if publi.DOI %}
+        <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+    {% endif %}
+    </a>
+</div>
+{% endif %}
+{% endfor %}
+</div>
 </div>
