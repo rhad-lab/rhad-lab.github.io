@@ -1,6 +1,6 @@
 [
 	{
-		"id": "http://zotero.org/users/1814621/items/INR5UCI3",
+		"id": "http://zotero.org/users/1814621/items/ESXHBUXJ",
 		"type": "paper-conference",
 		"container-title": "Canadian Acoustics",
 		"note": "issue: 3",
@@ -30,7 +30,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/HNZQVHLP",
+		"id": "http://zotero.org/users/1814621/items/C7C92FNM",
 		"type": "paper-conference",
 		"container-title": "Canadian Acoustics",
 		"note": "issue: 3",
@@ -60,7 +60,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/ZA922PRS",
+		"id": "http://zotero.org/users/1814621/items/Y2PYWB55",
 		"type": "paper-conference",
 		"container-title": "Canadian Acoustics= Acoustique Canadienne",
 		"note": "issue: 3",
@@ -95,7 +95,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/8JLV4ZBT",
+		"id": "http://zotero.org/users/1814621/items/NL5HMK8X",
 		"type": "paper-conference",
 		"container-title": "Proceedings of Meetings on Acoustics",
 		"note": "issue: 1",
@@ -130,7 +130,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/PV5RPQJ4",
+		"id": "http://zotero.org/users/1814621/items/GYPRLAW9",
 		"type": "paper-conference",
 		"container-title": "Acoustics week in Canada",
 		"publisher": "Canadian Acoustics",
@@ -162,7 +162,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/VRC9YGVV",
+		"id": "http://zotero.org/users/1814621/items/TTFWYJ2F",
 		"type": "paper-conference",
 		"container-title": "International Congress in Acoustics",
 		"title": "The potential of restorative spaces on noise-related wellbeing in schools: preliminary results of a documentation study of three different spaces in Quebec schools.",
@@ -205,7 +205,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/U3S52VTS",
+		"id": "http://zotero.org/users/1814621/items/7PKP4TWY",
 		"type": "paper-conference",
 		"container-title": "International Congress on Sound and Vibration",
 		"publisher": "Canadian Acoustical Association",
@@ -245,8 +245,9 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/8BZ3YSLC",
+		"id": "http://zotero.org/users/1814621/items/9Q8PZ2V9",
 		"type": "paper-conference",
+		"container-title": "INTERSPEECH",
 		"publisher": "International Speech Communication Association",
 		"title": "Classification of nonverbal human produced audio events: a pilot study",
 		"author": [
@@ -280,7 +281,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/CXVT264V",
+		"id": "http://zotero.org/users/1814621/items/G9ZTRCBD",
 		"type": "article-journal",
 		"container-title": "Applied Acoustics",
 		"note": "publisher: Elsevier",
@@ -314,46 +315,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/4IQDBG3I",
-		"type": "article-journal",
-		"note": "publisher: Applied Acoustics",
-		"title": "Stress classification with in-ear heartbeat sounds",
-		"author": [
-			{
-				"family": "Benesch",
-				"given": "Danielle"
-			},
-			{
-				"family": "Villate",
-				"given": "Bérangère"
-			},
-			{
-				"family": "Vinet",
-				"given": "Alain"
-			},
-			{
-				"family": "Hébert",
-				"given": "Sylvie"
-			},
-			{
-				"family": "Voix",
-				"given": "Jérémie"
-			},
-			{
-				"family": "Bouserhal",
-				"given": "Rachel"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2024"
-				]
-			]
-		}
-	},
-	{
-		"id": "http://zotero.org/users/1814621/items/I74VC5X5",
+		"id": "http://zotero.org/users/1814621/items/IBYAGC8I",
 		"type": "article-journal",
 		"container-title": "International Journal of Environmental Research and Public Health",
 		"DOI": "10.3390/ijerph21010084",
@@ -401,7 +363,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/Y6RZ2DKZ",
+		"id": "http://zotero.org/users/1814621/items/UKMZ9E6S",
 		"type": "article-journal",
 		"container-title": "The Journal of the Acoustical Society of America",
 		"issue": "3",
@@ -432,7 +394,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/WXGLMRQQ",
+		"id": "http://zotero.org/users/1814621/items/W5W796H4",
 		"type": "article-journal",
 		"container-title": "Journal of Speech, Language, and Hearing Research",
 		"issue": "12",
@@ -471,7 +433,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/IQRHFAMR",
+		"id": "http://zotero.org/users/1814621/items/LLD3W8BK",
 		"type": "article-journal",
 		"container-title": "The Journal of the Acoustical Society of America",
 		"issue": "2",
@@ -502,7 +464,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/3LLEP63H",
+		"id": "http://zotero.org/users/1814621/items/S5Y55VYF",
 		"type": "article-journal",
 		"container-title": "Applied Acoustics",
 		"note": "publisher: Elsevier",
@@ -536,7 +498,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/RNDE6LGQ",
+		"id": "http://zotero.org/users/1814621/items/IWGTE22M",
 		"type": "article-journal",
 		"container-title": "Journal of the Audio Engineering Society",
 		"issue": "9",
@@ -571,7 +533,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/B4T734SF",
+		"id": "http://zotero.org/users/1814621/items/YJRCF78Y",
 		"type": "article-journal",
 		"container-title": "International Journal of Audiology",
 		"issue": "1",
@@ -610,7 +572,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/5S552C9I",
+		"id": "http://zotero.org/users/1814621/items/UCKEZ253",
 		"type": "article-journal",
 		"container-title": "Applied Acoustics",
 		"note": "publisher: Elsevier",
@@ -644,7 +606,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/TQ7ZPIXS",
+		"id": "http://zotero.org/users/1814621/items/MBLU5L85",
 		"type": "article-journal",
 		"container-title": "International journal of audiology",
 		"issue": "sup1",
@@ -679,7 +641,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/VAHQ5RQU",
+		"id": "http://zotero.org/users/1814621/items/SZJ49REA",
 		"type": "manuscript",
 		"event-place": "Rocehster, Minnesota, USA (Hybrid)",
 		"publisher-place": "Rocehster, Minnesota, USA (Hybrid)",
@@ -700,7 +662,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/GRV8DRJN",
+		"id": "http://zotero.org/users/1814621/items/LPCQPY5E",
 		"type": "manuscript",
 		"event-place": "Virtual",
 		"publisher-place": "Virtual",
@@ -725,7 +687,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/QK9832HX",
+		"id": "http://zotero.org/users/1814621/items/8MKT3FL3",
 		"type": "manuscript",
 		"event-place": "McGill University, Montréal, Canada",
 		"publisher-place": "McGill University, Montréal, Canada",
@@ -746,7 +708,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/6632AZQM",
+		"id": "http://zotero.org/users/1814621/items/Q9Y2BBNK",
 		"type": "manuscript",
 		"event-place": "Université de Montréal, Montréal, Canada",
 		"publisher-place": "Université de Montréal, Montréal, Canada",
@@ -767,7 +729,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/8U694ZG8",
+		"id": "http://zotero.org/users/1814621/items/LPAQJ5UP",
 		"type": "manuscript",
 		"event-place": "Centre Montréal, Montréal, Canada",
 		"publisher-place": "Centre Montréal, Montréal, Canada",
@@ -788,7 +750,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/NW7VCARF",
+		"id": "http://zotero.org/users/1814621/items/XLIJET2I",
 		"type": "manuscript",
 		"event-place": "Saguenay-Lac-Saint-Jean, Québec, Canada",
 		"publisher-place": "Saguenay-Lac-Saint-Jean, Québec, Canada",
@@ -813,7 +775,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/JTXHK4W4",
+		"id": "http://zotero.org/users/1814621/items/RQMXEZKX",
 		"type": "manuscript",
 		"event-place": "Virtual",
 		"publisher-place": "Virtual",
@@ -834,7 +796,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/GGWSSCRV",
+		"id": "http://zotero.org/users/1814621/items/4EI2JVEM",
 		"type": "manuscript",
 		"event-place": "École de technologie supérieure, Montréal, Canada",
 		"publisher-place": "École de technologie supérieure, Montréal, Canada",
@@ -855,7 +817,7 @@
 		}
 	},
 	{
-		"id": "http://zotero.org/users/1814621/items/D27CIJ5S",
+		"id": "http://zotero.org/users/1814621/items/CPMQ5SLT",
 		"type": "manuscript",
 		"event-place": "Centre for Interdisciplinary Research in Music Media and Technology, Montréal, Canada",
 		"publisher-place": "Centre for Interdisciplinary Research in Music Media and Technology, Montréal, Canada",
