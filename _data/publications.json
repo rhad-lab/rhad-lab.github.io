@@ -6,6 +6,42 @@
         "given": "Xinyi"
       },
       {
+        "family": "Berger",
+        "given": "Lucia Eve"
+      },
+      {
+        "family": "Tran",
+        "given": "Duc-Hoa"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      }
+    ],
+    "collection-number": "3",
+    "container-title": "Canadian acoustics",
+    "id": "zhang2023enhancing",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "page": "76-77",
+    "publisher": "Canadian Acoustical Association",
+    "title": "Enhancing automatic speech recognition of a regional dialect: A pilot study with québécois french",
+    "title-short": "Enhancing automatic speech recognition of a regional dialect",
+    "type": "paper-conference",
+    "volume": "51"
+  },
+  {
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Xinyi"
+      },
+      {
         "family": "Clayards",
         "given": "Meghan"
       },
@@ -58,42 +94,6 @@
     "title": "Towards detection and classification of non-verbal events and biosignals in hearables",
     "type": "paper-conference",
     "volume": "50"
-  },
-  {
-    "author": [
-      {
-        "family": "Zhang",
-        "given": "Xinyi"
-      },
-      {
-        "family": "Berger",
-        "given": "Lucia Eve"
-      },
-      {
-        "family": "Tran",
-        "given": "Duc-Hoa"
-      },
-      {
-        "family": "Bouserhal",
-        "given": "Rachel"
-      }
-    ],
-    "collection-number": "3",
-    "container-title": "Canadian acoustics",
-    "id": "zhang2023enhancing",
-    "issued": {
-      "date-parts": [
-        [
-          2023
-        ]
-      ]
-    },
-    "page": "76-77",
-    "publisher": "Canadian Acoustical Association",
-    "title": "Enhancing automatic speech recognition of a regional dialect: A pilot study with québécois french",
-    "title-short": "Enhancing automatic speech recognition of a regional dialect",
-    "type": "paper-conference",
-    "volume": "51"
   },
   {
     "DOI": "10.1121/2.0001616",
