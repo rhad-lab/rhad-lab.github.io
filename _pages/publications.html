@@ -4,7 +4,7 @@ layout: default
 excerpt: "RT2 Lab -- Publications."
 sitemap: false
 permalink: /publications/
----
+---git 
 
 
 <h1>{{page.title}}</h1>
@@ -31,11 +31,13 @@ permalink: /publications/
         {% endif %}
 
         <!-- issued date -->
-        {{ publi.issued.date-parts | jsonify | slice: 3,4 }}.
+        {{ publi.issued.date-parts | jsonify }}.
 
         <!-- DOI -->
         {% if publi.DOI %}
             <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+        {% elsif publi.URL %}
+            <a href="{{publi.URL}}">URL</a>
         {% endif %}
     </div>
 {% endif %}
@@ -64,7 +66,7 @@ permalink: /publications/
     {% endif %}
 
     <!-- issued date -->
-    {{ publi.issued.date-parts | jsonify | slice: 3,4 }}.
+    {{ publi.issued.date-parts | jsonify }}.
 
      <!-- DOI -->
     {% if publi.DOI %}
@@ -96,7 +98,7 @@ permalink: /publications/
     {% endif %}
 
     <!-- issued date -->
-    {{ publi.issued.date-parts | jsonify | slice: 3,4 }}.
+    {{ publi.issued.date-parts | jsonify }}.
 </div>
 {% endif %}
 {% endfor %}
