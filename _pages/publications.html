@@ -14,8 +14,31 @@ permalink: /publications/
 {% if publi.type == "article-journal" %}
     <div class="panel-heading">
         <!-- authors -->
+        {% comment -%}
         {% include function.format_and_print_authors.liquid authors=publi.author -%},
-
+        {% endcomment -%}
+        {% assign result = "" | split:"/" -%}
+        {% for author in publi.author -%}
+          {% assign name = author.given | split: " " -%}
+          {% assign firstname = "" | split: "/" -%}
+          {% for i in name -%}
+            {% assign t = i | split: "" | first | append: "." -%}
+            {% if i contains "-" -%}
+              {% assign subname = i | split: "-" -%}
+              {% assign s = ""  | split: "/" -%}
+              {% for j in subname -%}
+                {% assign t = j | split: "" | first | append: "." -%}
+                {% assign s = s | push: t -%}
+              {% endfor -%}
+              {% assign t = s | join: "-" -%}
+          	{% endif -%}
+            {% assign firstname = firstname | push: t -%}
+          {% endfor -%}
+          {% assign aname = firstname | join: " " | append: " " | append: author.family -%}
+          {% assign result = result | push: aname -%}
+        {% endfor -%}
+        {{ result | array_to_sentence_string -}},
+        
         <!-- title with link -->
         "{{ publi.title }}",
 
