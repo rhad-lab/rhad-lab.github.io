@@ -1,0 +1,16 @@
+{% assign name = author.given | split: " " -%}
+{% assign firstname = "" | split: "/" -%}
+{% for i in name -%}
+  {% assign t = i | split: "" | first | append: "." -%}
+  {% if i contains "-" -%}
+    {% assign subname = i | split: "-" -%}
+    {% assign s = ""  | split: "/" -%}
+    {% for j in subname -%}
+      {% assign t = j | split: "" | first | append: "." -%}
+      {% assign s = s | push: t -%}
+    {% endfor -%}
+    {% assign t = s | join: "-" -%}
+	{% endif -%}
+  {% assign firstname = firstname | push: t -%}
+{% endfor -%}
+{% assign author = firstname | join: " " | append: " " | append: author.family -%}
