@@ -14,9 +14,8 @@ permalink: /publications/
 {% if publi.type == "article-journal" %}
     <div class="panel-heading">
         <!-- authors -->
+        {% include function.format_and_print_authors.liquid authors=publi.author %},
         {% comment -%}
-        {% include function.format_and_print_authors.liquid authors=publi.author -%},
-        {% endcomment -%}
         {% assign result = "" | split:"/" -%}
         {% for author in publi.author -%}
           {% assign name = author.given | split: " " -%}
@@ -38,6 +37,7 @@ permalink: /publications/
           {% assign result = result | push: aname -%}
         {% endfor -%}
         {{ result | array_to_sentence_string -}},
+        {% endcomment -%}
         
         <!-- title with link -->
         "{{ publi.title }}",

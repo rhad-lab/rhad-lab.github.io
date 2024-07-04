@@ -1,5 +1,5 @@
 {% assign result = "" | split:"/" -%}
-{% for author in authors -%}
+{% for author in include.authors -%}
   {% assign name = author.given | split: " " -%}
   {% assign firstname = "" | split: "/" -%}
   {% for i in name -%}
