@@ -16,9 +16,29 @@ permalink: /publications/
         <!-- authors -->
         {% assign authors = "" | split:"/" -%}
         {% for author in publi.author -%}
+            {% comment %}
             {% include function.format_author.liquid author=author -%}
             {% assign authors = authors | push: author -%}
-        {% endfor -%}
+            {% endcomment -%}
+            {% assign name = author.given | split: " " -%}
+            {% assign firstname = "" | split: "/" -%}
+            {% for i in name -%}
+              {% assign t = i | split: "" | first | append: "." -%}
+              {% if i contains "-" -%}
+                {% assign subname = i | split: "-" -%}
+                {% assign s = ""  | split: "/" -%}
+                {% for j in subname -%}
+                  {% assign t = j | split: "" | first | append: "." -%}
+                  {% assign s = s | push: t -%}
+                {% endfor -%}
+                {% assign t = s | join: "-" -%}
+            	{% endif -%}
+              {% assign firstname = firstname | push: t -%}
+            {% endfor -%}
+            {% assign aname = firstname | push: author.family -%}
+            {% assign aname = aname | join: " " -%}
+            {% assign authors = authors | push: aname -%}
+            {% endfor -%}
         {{ authors | array_to_sentence_string }},
 
         <!-- title with link -->
