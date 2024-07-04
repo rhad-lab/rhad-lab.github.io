@@ -8,13 +8,33 @@ permalink: /publications/
 
 <h1>{{page.title}}</h1>
 
+{% comment %}
+Go through all publications and count how many there are of each type. We'll use that to generate the indexes.
+{% endcomment %}
+{% assign cnt_j = 0 -%}
+{% assign cnt_c = 0 -%}
+{% assign cnt_t = 0 -%}
+
+{% for publi in site.data.publications -%}
+  {% if publi.type == "article-journal" -%}
+    {% assign cnt_j = cnt_j | plus: 1 -%}
+  {% elsif publi.type == "paper-conference" -%}
+    {% assign cnt_c = cnt_c | plus: 1 -%}
+  {% elsif publi.type == "manuscript" -%}
+    {% assign cnt_t = cnt_t | plus: 1 -%}
+  {% endif -%}
+{% endfor -%}
+
 <h2>Journals</h2>
 {% for publi in site.data.publications -%}
   {% if publi.type == "article-journal" -%}
     <div class="panel-heading">
+      <!-- print index and decrement -->
+      [J{{cnt_j}}] {% assign cnt_j = cnt_j | minus: 1 -%}
+
       <!-- authors -->
       {% include function.format_and_print_authors.liquid authors=publi.author -%},
-      
+
       <!-- title -->
       "{{ publi.title }}",
 
@@ -44,23 +64,26 @@ permalink: /publications/
 {% for publi in site.data.publications -%}
   {% if publi.type == "paper-conference" -%}
     <div class="panel-heading">
+      <!-- print index and decrement -->
+      [C{{cnt_c}}] {% assign cnt_c = cnt_c | minus: 1 -%}
+
       <!-- authors -->
       {% include function.format_and_print_authors.liquid authors=publi.author -%},
-  
+
       <!-- title -->
       "{{ publi.title }}",
 
       <!-- conference name -->
       <b>{{ publi.container-title }}</b>, 
-  
+
       <!-- volume -->
       {% if publi.volume -%}
         vol. {{ publi.volume }}, 
       {% endif -%}
-  
+
       <!-- date -->
       {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
-  
+
        <!-- DOI -->
       {% if publi.DOI -%}
         <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
@@ -73,9 +96,12 @@ permalink: /publications/
 {% for publi in site.data.publications -%}
   {% if publi.type == "manuscript" -%}
     <div class="panel-heading">
+      <!-- print index and decrement -->
+      [T{{cnt_t}}] {% assign cnt_t = cnt_t | minus: 1 -%}
+
       <!-- authors -->
       {% include function.format_and_print_authors.liquid authors=publi.author -%},
-  
+
       <!-- title -->
       "{{ publi.title }}",
 
@@ -83,7 +109,7 @@ permalink: /publications/
       <b>{{ publi.publisher-place }}</b>, 
 
       <!-- date -->
-      {{ publi.issued.date-parts | jsonify | slice: 2,4}}.
+      {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
     </div>
   {% endif -%}
 {% endfor -%}
