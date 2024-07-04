@@ -6,87 +6,84 @@ sitemap: false
 permalink: /publications/
 --- 
 
-
 <h1>{{page.title}}</h1>
 
 <h2>Journals</h2>
-{% for publi in site.data.publications %}
-{% if publi.type == "article-journal" %}
+{% for publi in site.data.publications -%}
+  {% if publi.type == "article-journal" -%}
     <div class="panel-heading">
-        <!-- authors -->
-        {% include function.format_and_print_authors.liquid authors=publi.author %},
-        
-        <!-- title with link -->
-        "{{ publi.title }}",
+      <!-- authors -->
+      {% include function.format_and_print_authors.liquid authors=publi.author -%},
+      
+      <!-- title -->
+      "{{ publi.title }}",
 
-        <!-- container -->
-        <b>{{ publi.container-title }}</b>, 
+      <!-- journal name -->
+      <b>{{ publi.container-title }}</b>, 
 
-        {% if publi.volume %}
-          vol. {{ publi.volume }}, 
-        {% endif %}
+      <!-- volume number -->
+      {% if publi.volume -%}
+        vol. {{ publi.volume }}, 
+      {% endif -%}
 
-        <!-- issued date -->
-        {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
+      <!-- issued date -->
+      {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
 
-        <!-- DOI -->
-        {% if publi.DOI %}
-            <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
-        {% elsif publi.URL %}
-            <a href="{{publi.URL}}">URL</a>
-        {% endif %}
+      <!-- DOI -->
+      {% if publi.DOI -%}
+          <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+      {% elsif publi.URL -%}
+          <a href="{{publi.URL}}">URL</a>
+      {% endif -%}
     </div>
-{% endif %}
-{% endfor %}
+  {% endif -%}
+{% endfor -%}
 
 
 <h2>Conference Proceedings and Posters</h2>
-{% for publi in site.data.publications %}
-{% if publi.type == "paper-conference" %}
-<div class="panel-heading">
-    <!-- authors -->
-    {% include function.format_and_print_authors.liquid authors=publi.author %},
+{% for publi in site.data.publications -%}
+  {% if publi.type == "paper-conference" -%}
+    <div class="panel-heading">
+      <!-- authors -->
+      {% include function.format_and_print_authors.liquid authors=publi.author -%},
+  
+      <!-- title -->
+      "{{ publi.title }}",
 
-     <!-- title with link -->
-     "{{ publi.title }}",
-
-     <!-- container -->
-    <b>{{ publi.container-title }}</b>, 
-
-    {% if publi.volume %}
-      vol. {{ publi.volume }}, 
-    {% endif %}
-
-    <!-- issued date -->
-    {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
-
-     <!-- DOI -->
-    {% if publi.DOI %}
-      <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
-    {% endif %}
-</div>
-{% endif %}
-{% endfor %}
+      <!-- conference name -->
+      <b>{{ publi.container-title }}</b>, 
+  
+      <!-- volume -->
+      {% if publi.volume -%}
+        vol. {{ publi.volume }}, 
+      {% endif -%}
+  
+      <!-- date -->
+      {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
+  
+       <!-- DOI -->
+      {% if publi.DOI -%}
+        <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+      {% endif -%}
+    </div>
+  {% endif -%}
+{% endfor -%}
 
 <h2>Invited Talks</h2>
-{% for publi in site.data.publications %}
-{% if publi.type == "manuscript" %}
-<div class="panel-heading">
-    <!-- authors -->
-    {% include function.format_and_print_authors.liquid authors=publi.author %},
+{% for publi in site.data.publications -%}
+  {% if publi.type == "manuscript" -%}
+    <div class="panel-heading">
+      <!-- authors -->
+      {% include function.format_and_print_authors.liquid authors=publi.author -%},
+  
+      <!-- title -->
+      "{{ publi.title }}",
 
-     <!-- title with link -->
-     "{{ publi.title }}",
+      <!-- location -->
+      <b>{{ publi.publisher-place }}</b>, 
 
-     <!-- place -->
-    <b>{{ publi.publisher-place }}</b>, 
-
-    {% if publi.volume %}
-      vol. {{ publi.volume }}, 
-    {% endif %}
-
-    <!-- issued date -->
-    {{ publi.issued.date-parts | jsonify | slice: 2,4}}.
-</div>
-{% endif %}
-{% endfor %}
+      <!-- date -->
+      {{ publi.issued.date-parts | jsonify | slice: 2,4}}.
+    </div>
+  {% endif -%}
+{% endfor -%}
