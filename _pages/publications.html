@@ -16,7 +16,7 @@ permalink: /publications/
         <!-- authors -->
         {% assign authors = "" | split:"/" -%}
         {% for author in publi.author -%}
-            {% include "function.format_author.liquid" author=author -%}
+            {% include function.format_author.liquid author=author -%}
             {% assign authors = authors | push: author -%}
         {% endfor -%}
         {{ authors | array_to_sentence_string }},
