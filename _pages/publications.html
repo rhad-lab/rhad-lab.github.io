@@ -8,108 +8,107 @@ permalink: /publications/
 
 <h1>{{page.title}}</h1>
 
-{% comment %}
-Go through all publications and count how many there are of each type. We'll use that to generate the indexes.
-{% endcomment %}
-{% assign cnt_j = 0 -%}
-{% assign cnt_c = 0 -%}
-{% assign cnt_t = 0 -%}
+{% comment -%}
+Go through all publications, create arrays for each type, and count how many there are.
+{% endcomment -%}
+
+{% assign pubs_j = "" | split: "/" -%}
+{% assign pubs_c = "" | split: "/" -%}
+{% assign pubs_t = "" | split: "/" -%}
 
 {% for publi in site.data.publications -%}
   {% if publi.type == "article-journal" -%}
-    {% assign cnt_j = cnt_j | plus: 1 -%}
+    {% assign pubs_j = pubs_j | push: publi %}
   {% elsif publi.type == "paper-conference" -%}
-    {% assign cnt_c = cnt_c | plus: 1 -%}
+    {% assign pubs_c = pubs_c | push: publi %}
   {% elsif publi.type == "manuscript" -%}
-    {% assign cnt_t = cnt_t | plus: 1 -%}
+    {% assign pubs_t = pubs_t | push: publi %}
   {% endif -%}
 {% endfor -%}
 
+{% assign cnt_j = pubs_j | size -%}
+{% assign cnt_c = pubs_c | size -%}
+{% assign cnt_t = pubs_t | size -%}
+
 <h2>Journals</h2>
-{% for publi in site.data.publications -%}
-  {% if publi.type == "article-journal" -%}
-    <div class="panel-heading">
-      <!-- print index and decrement -->
-      [J{{cnt_j}}] {% assign cnt_j = cnt_j | minus: 1 -%}
+{% for publi in pubs_j -%}
+  <div class="panel-heading">
+    <!-- print index and decrement -->
+    [J{{cnt_j}}] {% assign cnt_j = cnt_j | minus: 1 %}
 
-      <!-- authors -->
-      {% include function.format_and_print_authors.liquid authors=publi.author -%},
+    <!-- authors -->
+    {% include function.format_and_print_authors.liquid authors=publi.author -%},
 
-      <!-- title -->
-      "{{ publi.title }}",
+    <!-- title -->
+    "{{ publi.title }}",
 
-      <!-- journal name -->
-      <b>{{ publi.container-title }}</b>, 
+    <!-- journal name -->
+    <b>{{ publi.container-title }}</b>, 
 
-      <!-- volume number -->
-      {% if publi.volume -%}
-        vol. {{ publi.volume }}, 
-      {% endif -%}
+    <!-- volume number -->
+    {% if publi.volume -%}
+      vol. {{ publi.volume }}, 
+    {% endif -%}
 
-      <!-- issued date -->
-      {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
+    <!-- issued date -->
+    {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
 
-      <!-- DOI -->
-      {% if publi.DOI -%}
-          <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
-      {% elsif publi.URL -%}
-          <a href="{{publi.URL}}">URL</a>
-      {% endif -%}
-    </div>
-  {% endif -%}
+    <!-- DOI -->
+    {% if publi.DOI -%}
+      <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+    {% elsif publi.URL -%}
+      <a href="{{publi.URL}}">URL</a>
+    {% endif -%}
+  </div>
 {% endfor -%}
 
 
 <h2>Conference Proceedings and Posters</h2>
-{% for publi in site.data.publications -%}
-  {% if publi.type == "paper-conference" -%}
-    <div class="panel-heading">
-      <!-- print index and decrement -->
-      [C{{cnt_c}}] {% assign cnt_c = cnt_c | minus: 1 -%}
+{% for publi in pubs_c -%}
+  <div class="panel-heading">
+    <!-- print index and decrement -->
+    [C{{cnt_c}}] {% assign cnt_c = cnt_c | minus: 1 %}
 
-      <!-- authors -->
-      {% include function.format_and_print_authors.liquid authors=publi.author -%},
+    <!-- authors -->
+    {% include function.format_and_print_authors.liquid authors=publi.author -%},
 
-      <!-- title -->
-      "{{ publi.title }}",
+    <!-- title -->
+    "{{ publi.title }}",
 
-      <!-- conference name -->
-      <b>{{ publi.container-title }}</b>, 
+    <!-- conference name -->
+    <b>{{ publi.container-title }}</b>, 
 
-      <!-- volume -->
-      {% if publi.volume -%}
-        vol. {{ publi.volume }}, 
-      {% endif -%}
+    <!-- volume -->
+    {% if publi.volume -%}
+      vol. {{ publi.volume }}, 
+    {% endif -%}
 
-      <!-- date -->
-      {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
+    <!-- date -->
+    {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
 
-       <!-- DOI -->
-      {% if publi.DOI -%}
-        <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
-      {% endif -%}
-    </div>
-  {% endif -%}
+     <!-- DOI -->
+    {% if publi.DOI -%}
+      <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+    {% endif -%}
+  </div>
 {% endfor -%}
 
 <h2>Invited Talks</h2>
-{% for publi in site.data.publications -%}
-  {% if publi.type == "manuscript" -%}
-    <div class="panel-heading">
-      <!-- print index and decrement -->
-      [T{{cnt_t}}] {% assign cnt_t = cnt_t | minus: 1 -%}
+{% for publi in pubs_t -%}
+  <div class="panel-heading">
+    <!-- print index and decrement -->
+    [T{{cnt_t}}] {% assign cnt_t = cnt_t | minus: 1 %}
 
-      <!-- authors -->
-      {% include function.format_and_print_authors.liquid authors=publi.author -%},
+    <!-- authors -->
+    {% include function.format_and_print_authors.liquid authors=publi.author -%},
 
-      <!-- title -->
-      "{{ publi.title }}",
+    <!-- title -->
+    "{{ publi.title }}",
 
-      <!-- location -->
-      <b>{{ publi.publisher-place }}</b>, 
+    <!-- location -->
+    <b>{{ publi.publisher-place }}</b>, 
 
-      <!-- date -->
-      {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
-    </div>
-  {% endif -%}
+    <!-- date -->
+    {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
+  </div>
 {% endfor -%}
