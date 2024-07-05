@@ -28,10 +28,6 @@ Go through all publications, create arrays for each type, and count how many the
 {%- assign pubs_c = site.data.publications | where: "type", "paper-conference" %}
 {%- assign pubs_t = site.data.publications | where: "type", "manuscript" %}
 
-{%- assign cnt_j = pubs_j | size %}
-{%- assign cnt_c = pubs_c | size %}
-{%- assign cnt_t = pubs_t | size %}
-
 <h2>Journals</h2>
 <div class="panel-heading">
 <table>
@@ -40,7 +36,7 @@ Go through all publications, create arrays for each type, and count how many the
    <tr>
     <td>
     <!-- print index and decrement -->
-    [J{{cnt_j}}] {% assign cnt_j = cnt_j | minus: 1 %}
+    [J{{ pubs_j | size | minus: forloop.index0 }}]
     </td>
     <td>
     <!-- authors -->
@@ -92,7 +88,7 @@ Go through all publications, create arrays for each type, and count how many the
    <tr>
     <td>
     <!-- print index and decrement -->
-    [C{{cnt_c}}] {% assign cnt_c = cnt_c | minus: 1 %}
+    [C{{ pubs_c | size | minus: forloop.index0 }}]
     </td>
     <td>
     <!-- authors -->
@@ -141,7 +137,7 @@ Go through all publications, create arrays for each type, and count how many the
    <tr>
     <td>
     <!-- print index and decrement -->
-    [T{{cnt_t}}] {% assign cnt_t = cnt_t | minus: 1 %}
+    [T{{ pubs_t | size | minus: forloop.index0 }}]
     </td>
     <td>
     <!-- authors -->
