@@ -6,6 +6,17 @@ sitemap: false
 permalink: /publications/
 --- 
 
+<style>
+table {
+  display:table;
+  width:100%;
+}
+table td:nth-of-type(1) {
+  vertical-align:top;
+  width:4%;
+}
+</style>
+
 <h1>{{page.title}}</h1>
 
 {% comment -%}
@@ -31,11 +42,16 @@ Go through all publications, create arrays for each type, and count how many the
 {% assign cnt_t = pubs_t | size -%}
 
 <h2>Journals</h2>
+<div class="panel-heading">
+<table>
+  <tbody>
 {% for publi in pubs_j -%}
-  <div class="panel-heading">
+   <tr>
+    <td>
     <!-- print index and decrement -->
     [J{{cnt_j}}] {% assign cnt_j = cnt_j | minus: 1 %}
-
+    </td>
+    <td>
     <!-- authors -->
     {% include function.format_and_print_authors.liquid authors=publi.author -%},
 
@@ -69,16 +85,25 @@ Go through all publications, create arrays for each type, and count how many the
     {% elsif publi.URL -%}
       <a href="{{publi.URL}}">URL</a>
     {% endif -%}
-  </div>
+    </td>
+   </tr>
 {% endfor -%}
+  </tbody>
+</table>
+</div>
 
 
 <h2>Conference Proceedings and Posters</h2>
+<div class="panel-heading">
+<table>
+  <tbody>
 {% for publi in pubs_c -%}
-  <div class="panel-heading">
+   <tr>
+    <td>
     <!-- print index and decrement -->
     [C{{cnt_c}}] {% assign cnt_c = cnt_c | minus: 1 %}
-
+    </td>
+    <td>
     <!-- authors -->
     {% include function.format_and_print_authors.liquid authors=publi.author -%},
 
@@ -110,15 +135,24 @@ Go through all publications, create arrays for each type, and count how many the
     {% if publi.DOI -%}
       <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
     {% endif -%}
-  </div>
+    </td>
+   </tr>
 {% endfor -%}
+  </tbody>
+</table>
+</div>
 
 <h2>Invited Talks</h2>
+<div class="panel-heading">
+<table>
+  <tbody>
 {% for publi in pubs_t -%}
-  <div class="panel-heading">
+   <tr>
+    <td>
     <!-- print index and decrement -->
     [T{{cnt_t}}] {% assign cnt_t = cnt_t | minus: 1 %}
-
+    </td>
+    <td>
     <!-- authors -->
     {% include function.format_and_print_authors.liquid authors=publi.author -%},
 
@@ -130,5 +164,9 @@ Go through all publications, create arrays for each type, and count how many the
 
     <!-- date -->
     {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
-  </div>
+    </td>
+   </tr>
 {% endfor -%}
+  </tbody>
+</table>
+</div>
