@@ -40,14 +40,24 @@ Go through all publications, create arrays for each type, and count how many the
     {% include function.format_and_print_authors.liquid authors=publi.author -%},
 
     <!-- title -->
-    "{{ publi.title }}",
+    <b>"{{ publi.title }}"</b>,
 
     <!-- journal name -->
-    <b>{{ publi.container-title }}</b>, 
+    <em>{{ publi.container-title }}</em>, 
 
-    <!-- volume number -->
+    <!-- volume -->
     {% if publi.volume -%}
       vol. {{ publi.volume }}, 
+    {% endif -%}
+
+    <!-- number -->
+    {% if publi.collection-number -%}
+      no. {{ publi.collection-number }}, 
+    {% endif -%}
+
+    <!-- page range -->
+    {% if publi.page -%}
+      pp. {{ publi.page }}, 
     {% endif -%}
 
     <!-- issued date -->
@@ -73,14 +83,24 @@ Go through all publications, create arrays for each type, and count how many the
     {% include function.format_and_print_authors.liquid authors=publi.author -%},
 
     <!-- title -->
-    "{{ publi.title }}",
+    <b>"{{ publi.title }}"</b>,
 
     <!-- conference name -->
-    <b>{{ publi.container-title }}</b>, 
+    <em>{{ publi.container-title }}</em>, 
 
     <!-- volume -->
     {% if publi.volume -%}
       vol. {{ publi.volume }}, 
+    {% endif -%}
+
+    <!-- number -->
+    {% if publi.collection-number -%}
+      no. {{ publi.collection-number }}, 
+    {% endif -%}
+
+    <!-- page range -->
+    {% if publi.page -%}
+      pp. {{ publi.page }}, 
     {% endif -%}
 
     <!-- date -->
@@ -103,10 +123,10 @@ Go through all publications, create arrays for each type, and count how many the
     {% include function.format_and_print_authors.liquid authors=publi.author -%},
 
     <!-- title -->
-    "{{ publi.title }}",
+    <b>"{{ publi.title }}"</b>,
 
     <!-- location -->
-    <b>{{ publi.publisher-place }}</b>, 
+    <em>{{ publi.publisher-place }}</em>, 
 
     <!-- date -->
     {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
