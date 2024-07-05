@@ -24,29 +24,19 @@ table td:nth-of-type(1) {
 Go through all publications, create arrays for each type, and count how many there are.
 {% endcomment -%}
 
-{% assign pubs_j = "" | split: "/" -%}
-{% assign pubs_c = "" | split: "/" -%}
-{% assign pubs_t = "" | split: "/" -%}
+{%- assign pubs_j = site.data.publications | where: "type", "article-journal" %}
+{%- assign pubs_c = site.data.publications | where: "type", "paper-conference" %}
+{%- assign pubs_t = site.data.publications | where: "type", "manuscript" %}
 
-{% for publi in site.data.publications -%}
-  {% if publi.type == "article-journal" -%}
-    {% assign pubs_j = pubs_j | push: publi %}
-  {% elsif publi.type == "paper-conference" -%}
-    {% assign pubs_c = pubs_c | push: publi %}
-  {% elsif publi.type == "manuscript" -%}
-    {% assign pubs_t = pubs_t | push: publi %}
-  {% endif -%}
-{% endfor -%}
-
-{% assign cnt_j = pubs_j | size -%}
-{% assign cnt_c = pubs_c | size -%}
-{% assign cnt_t = pubs_t | size -%}
+{%- assign cnt_j = pubs_j | size %}
+{%- assign cnt_c = pubs_c | size %}
+{%- assign cnt_t = pubs_t | size %}
 
 <h2>Journals</h2>
 <div class="panel-heading">
 <table>
   <tbody>
-{% for publi in pubs_j -%}
+{%- for publi in pubs_j %}
    <tr>
     <td>
     <!-- print index and decrement -->
@@ -88,7 +78,7 @@ Go through all publications, create arrays for each type, and count how many the
     {% endif -%}
     </td>
    </tr>
-{% endfor -%}
+{%- endfor %}
   </tbody>
 </table>
 </div>
@@ -98,7 +88,7 @@ Go through all publications, create arrays for each type, and count how many the
 <div class="panel-heading">
 <table>
   <tbody>
-{% for publi in pubs_c -%}
+{%- for publi in pubs_c %}
    <tr>
     <td>
     <!-- print index and decrement -->
@@ -138,7 +128,7 @@ Go through all publications, create arrays for each type, and count how many the
     {% endif -%}
     </td>
    </tr>
-{% endfor -%}
+{%- endfor %}
   </tbody>
 </table>
 </div>
@@ -147,7 +137,7 @@ Go through all publications, create arrays for each type, and count how many the
 <div class="panel-heading">
 <table>
   <tbody>
-{% for publi in pubs_t -%}
+{%- for publi in pubs_t %}
    <tr>
     <td>
     <!-- print index and decrement -->
@@ -167,7 +157,7 @@ Go through all publications, create arrays for each type, and count how many the
     {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
     </td>
    </tr>
-{% endfor -%}
+{%- endfor %}
   </tbody>
 </table>
 </div>
