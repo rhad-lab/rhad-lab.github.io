@@ -1,3 +1,7 @@
+{% comment -%}
+Generates the list of authors, where the firstname(s) are abreviated and the
+lastname(s) are kept AS IS. The names are then enumerated properly.
+{% endcomment -%}
 {% assign result = "" | split:"/" -%}
 {% for author in include.authors -%}
   {% assign name = author.given | split: " " -%}
@@ -12,7 +16,7 @@
         {% assign s = s | push: t -%}
       {% endfor -%}
       {% assign t = s | join: "-" -%}
-  	{% endif -%}
+    {% endif -%}
     {% assign firstname = firstname | push: t -%}
   {% endfor -%}
   {% assign aname = firstname | join: " " | append: " " | append: author.family -%}
