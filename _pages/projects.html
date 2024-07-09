@@ -9,44 +9,26 @@ permalink: /projects
 
 <div class="projects">
   {% for project in site.data.projects %}
-    <div class="project">
-      <div class="project-text">
-        <h2>{{ project.title }}</h2>
-        <p>{{ project.short_description }}</p>
-        <p>Student: <a href="{{ project.student_page }}">{{ project.student_name }}</a></p>
+    <div class="row gx-5" style="margin:20px;padding:20px;background-color:#fafafa;border-radius: 15px;border:1px solid #e8e8e8">
+      <div class="col-md-6 mb-4">
+        <div class="project-text">
+          <span class="badge bg-danger px-2 py-1 shadow-1-strong mb-3">Project</span>
+          <h4><strong>{{ project.title }}</strong></h4>
+          <p class="text-muted">{{ project.short_description }}</p>
+          <p class="text-muted">Student: <a href="{{ project.student_page }}">{{ project.student_name }}</a></p>
+          <a href="projects/{{ project.url }}" target="_blank">
+            <button type="button" class="btn btn-primary">Read more</button>
+          </a>
+        </div>
       </div>
-      <img src="{{ project.image }}" alt="{{ project.title }} image">
-      <a href= "projects/{{project.url}}" target="_blank" >
-      <button type="button" class="btn btn-primary">Read more</button></a>
+      <div class="col-md-6 mb-4">
+        <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
+          <img src="{{ project.image }}" alt="{{ project.title }} image" style="max-width:100%;height:auto;" />
+          <a href="#!">
+            <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+          </a>
+        </div>
+      </div>
     </div>
   {% endfor %}
 </div>
-
-<style>
-  .projects {
-    display: flex;
-    flex-direction: column;
-  }
-  .project {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin: 20px 0;
-  }
-  .project-text {
-    flex: 1;
-  }
-  .project img {
-    max-width: 200px;
-    height: auto;
-    margin-left: 20px;
-  }
-  .project h2 {
-    margin: 0 0 10px 0;
-  }
-  .project p {
-    margin: 0 0 10px 0;
-  }
-</style>
