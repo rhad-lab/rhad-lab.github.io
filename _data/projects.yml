@@ -6,3 +6,40 @@
   image: "images/team/3.jpg"
   url: project_zhang
   type : PhD
+
+
+
+
+- title: "Facial Expression Analysis and Auditory Perception"
+  short_description: "This project aims to link subtle facial expressions to the sensory and affective dimensions of loudness. Using insights from pain research, we explore whether different facial expressions correlate with how pleasant or loud a sound is. We analyze reactions to auditory stimuli in a large video and behavior dataset, using computational linguistics, facial expression analysis, and machine learning. This research could improve methods to evaluate subjective perception objectively, benefiting clinical and industrial applications such as hearing aid calibration and sound environment evaluation for non-verbal subjects. "
+  long_description: "The aim of this project is to identify, characterize and link various subtle facial expressions to the sensory and affective dimensions of loudness. This effort is based on insights derived from pain research. Facial expression analysis of perceived pain established a range of facial expressions that correlate to either the sensory or affective dimensions of pain. The affective dimension (how unpleasant is the pain) elicits a different range of facial expressions than the sensory dimension (how much pain there is). Sound perception is also characterized by such dimensions: how un/pleasant the sound is, and how loud it is. Interestingly, the perception of pain and sound can overlap for instance for loud sounds and in auditory disorders such as hyperacusis. It is yet to be demonstrated whether these dimensions correlate to distinct sets of facial expressions, and whether it is possible to decode the perceived features of sound from facial movements. In order to address this knowledge gap we are analyzing reactions to auditory stimuli of different valence and intensity in a large hybrid video+behavior dataset. Data analysis involves the use of computational linguistics, video and facial expression analysis using data-driven approaches, and machine learning techniques. This project is an important stepping stone in the development of methods to evaluate subjective perception in a subject independent manner. Such developments are fundamental to address the issues in replicability of self-report based studies. The immediate clinical and industrial applications include the calibration of hearing aids, reactive systems for sound feature control, and the evaluation of perceived auditory environment in non-verbal subjects. This last application has life-changing potential for people affected by hearing disorders in concurrence with other debilitating conditions that complicate the accomodation of their needs. "
+  student_name: "Alessandro Braga"
+  student_page: "https://www.rhad-lab.ca/team/alessandro_braga"
+  image: "images/team/21.jpg"
+  url: project_alessandro
+  type : Postdoc
+
+
+
+- title: "Longitudinal data collection from patients of Alzheimer's disease using a hearable"
+  short_description: "Internal audio sounds produced by the human body convey important information about a person's health. For example, teeth grinding can indicate anxiety, and an elevated heart rate may signal emotional agitation. Intra-aural wearable devices, like hearables, are effective tools for capturing these internal sounds. These devices amplify low-frequency vibrations, enhancing internal audio signals. Alzheimer's disease, which impairs cognitive and motor abilities, is linked to changes in the central auditory system. Central auditory tests, such as the Hearing in Noise Test (HINT) and Triple Digit Test (TDT), are related to cognitive functions like learning and memory. Using hearables to conduct these tests is non-invasive, sensitive, quick, and can be done by untrained individuals, making them ideal for early Alzheimer's detection, especially in developing countries. Analyzing internal audio signals with hearables could enable early prediction of Alzheimer's disease. "
+  long_description: "Internal audio sounds produced by the human body convey important information about the person. For example, teeth grinding can represent anxiety, while an elevated heart rate may indicate emotional agitation. Intra-aural wearable devices, such as hearables, are a suitable tool to capture these internal audio events. In fact, the device attenuates external audio sounds and ensures the occlusion effect. The occlusion effect amplifies the low frequency vibrations in tissue and bones, which results into the amplification of internal audio signals. Alzheimer's disease is a neurodegenerative disease that affects cognitive and motor abilities, in addition to causing dementia. The disease impacts the daily life of the patients, especially in late stages where the patients are unable to perform daily activities dueto the explicit deterioration of cognitive functions. Previous literature has shown that the central auditory system is correlated to cognition. Central auditory tests, especially speech in noise tests such as Hearing in Sound Test (HINT) and Triple Digit test (TDT) are strongly related to learning and working memory. Hearing and understanding the words are not just limited to the auditory system, but they involve cortical areas of the brain that are related to learning and memory in order to understand the language, remember the sentence from start to finish, and process the meaning of the words. Central auditory tests performed using a hearable are non-invasive, highly sensitive, short in duration, and repeatable over time. Also, the tests could be performed by untrained individuals which makes them practical in developing countries that lack trained staff. Therefore, implementing auditory tests rather than neurophysiological tests to detect cognitive decline facilitates the process in the patients and staff's point of view. Hence, analyzing the internal audio signals captured by a hearable, a practical and efficient device, could allow the early prediction of Alzheimer's disease. "
+  student_name: "Miriam Boutros"
+  student_page: "https://www.rhad-lab.ca/team/miriam_boutros"
+  image: "images/team/9.png"
+  url: project_miriam
+  type : Msc
+
+
+ 
+- title: "Detection of swallowing and breathing using an in-ear microphone "
+  short_description: "In health monitoring, using in-ear microphones can identify sound patterns indicating coordination issues between swallowing and breathing, crucial for conditions like sialorrhea for people with Parkinson's disease. By detecting the frequency of swallowing and the timing of the respiratory cycle, we can potentially verify the hypothesis that excessive drooling in people with Parkinson's disease is due to impaired swallowing rather than excessive saliva production. To achieve this, ultrasound serves as a control method to distinguish spontaneous and food swallowing from other activities to have a labeled dataset for a machine learning algorithm."
+  long_description: "In health monitoring, using in-ear microphones can identify sound patterns indicating coordination issues between swallowing and breathing, crucial for conditions like sialorrhea for people with Parkinson's disease. By detecting the frequency of swallowing and the timing of the respiratory cycle, we can potentially verify the hypothesis that excessive drooling in people with Parkinson's disease is due to impaired swallowing rather than excessive saliva production. To achieve this, ultrasound serves as a control method to distinguish spontaneous and food swallowing from other activities to have a labeled dataset for a machine learning algorithm."
+  student_name: "Elyes Ben Cheikh "
+  student_page: "https://www.rhad-lab.ca/team/elyes_ben_cheikh"
+  image: "images/team/17.png"
+  url: project_elyes
+  type : Msc
+
+
+   
