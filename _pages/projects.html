@@ -16,9 +16,11 @@ permalink: /projects
           <h4><strong>{{ project.title }}</strong></h4>
           <p class="text-muted">{{ project.short_description }}</p>
           <p class="text-muted">Student: <a href="{{ project.student_page }}">{{ project.student_name }}</a></p>
-          <a href="projects/{{ project.url }}" target="_blank">
-            <button type="button" class="btn btn-primary">Read more</button>
-          </a>
+          <div class="d-flex justify-content-end">
+            <a href="projects/{{ project.url }}" target="_blank">
+              <button type="button" class="btn btn-primary">Read more</button>
+            </a>
+          </div>
         </div>
       </div>
       <div class="col-md-4 mb-4 d-flex justify-content-center align-items-center">
@@ -32,3 +34,4 @@ permalink: /projects
     </div>
   {% endfor %}
 </div>
+
