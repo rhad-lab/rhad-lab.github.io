@@ -67,41 +67,10 @@ mollit anim id est laborum.
 
 ### Add a new publication
 
-Publications are stored as `.json` file under
-[_data/publications.json](_data/publications.json).
-This json file is exported from [Zotero](https://www.zotero.org/)
-bibliography tool.
+Publications are stored as `.bib` files under [References/](References/). To add publications, just update the relevant `.bib` file, adding entries.
 
-Just add a new entry to the list like this:
+Then, use the [merge.sh](References/merge.sh) script to merge the `.bib` files together, convert from the BibTeX format to JSON (using the pandoc utility) and generate the [_data/publications.json](_data/publications.json) file.
 
-``` json
-{
-  "id": "http://zotero.org/groups/2386072/items/NU9LTX7C",
-  "type": "article-journal",
-  "title": "Foo",
-  "container-title": "IEEE Transactions on Medical Imaging",
-  "page": "448-459",
-  "volume": "38",
-  "issue": "2",
-  "source": "IEEE Xplore",
-  "abstract": "Bar",
-  "DOI": "10.1109/TMI.2018.2865709",
-  "author": [
-    {
-      "family": "",
-      "given": ""
-    },
-  ],
-  "issued": {
-    "date-parts": [
-      [
-        "2019",
-        2
-      ]
-    ]
-  }
-}
-```
 
 ### Add news
 
