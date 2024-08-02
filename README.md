@@ -69,7 +69,7 @@ mollit anim id est laborum.
 
 Publications are stored as `.bib` files under [References/](References/). To add publications, just update the relevant `.bib` file, adding entries.
 
-Then, use the [merge.sh](References/merge.sh) script to merge the `.bib` files together, convert from the BibTeX format to JSON (using the pandoc utility) and generate the [_data/publications.json](_data/publications.json) file.
+Then, use the [merge-and-gen.sh](References/merge-and-gen.sh) script to merge the `.bib` files together, convert from the BibTeX format to JSON (using the pandoc utility) and generate the [_data/publications.json](_data/publications.json) file.
 
 
 ### Add news
