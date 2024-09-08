@@ -55,10 +55,22 @@ figcaption {
   margin-top: 20px;
 }
 
-
 .carousel-inner {
-
   height: 400px;
-
+  display: flex;
+  transition: transform 0.6s ease-in-out;
 }
 
+
+
+
+.item {
+  display: none;  /* Hide inactive slides */
+  position: relative;
+  transition: opacity 0.6s ease-in-out;  /* Smooth transition effect */
+}
+
+.item.active {
+  display: block;  /* Show the active slide */
+  opacity: 1;
+}
