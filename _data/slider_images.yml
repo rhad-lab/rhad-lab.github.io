@@ -1,6 +1,6 @@
 images:
   - path: "/images/slider/slider-image.png"
-    square: true
+    square: false
 
   - path: "/images/slider/slider-image-2.png"
     square: false
