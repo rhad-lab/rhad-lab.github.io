@@ -74,3 +74,12 @@ figcaption {
   display: block;  /* Show the active slide */
   opacity: 1;
 }
+
+
+
+.item img {
+  height: 100%;
+  width: auto;
+  object-fit: cover; 
+  position: relative;
+}
