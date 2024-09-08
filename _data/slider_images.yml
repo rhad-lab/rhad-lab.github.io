@@ -1,0 +1,27 @@
+images:
+  - path: "/images/slider/slider-image.png"
+    square: true
+
+  - path: "/images/slider/slider-image-2.png"
+    square: false
+
+  - path: "/images/slider/slider-image-3.png"
+    square: true
+
+  - path: "/images/slider/slider-image-4.png"
+    square: true
+
+  - path: "/images/slider/slider-image-5.png"
+    square: true
+
+  - path: "/images/slider/slider-image-6.png"
+    square: true
+
+  - path: "/images/slider/slider-image-7.png"
+    square: true
+
+  - path: "/images/slider/slider-image-8.png"
+    square: true
+
+  - path: "/images/slider/slider-image-9.png"
+    square: true
