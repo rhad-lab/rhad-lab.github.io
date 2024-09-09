@@ -27,15 +27,16 @@ layout: default
                         
                         <div style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; 
                             background-image: url('{{ site.url }}{{ site.baseurl }}{{ image.path }}');
-                            background-size: cover; filter: blur(10px); z-index: 1;">
+                            background-size: cover; filter: blur(10px); z-index: 0;">
                         </div>
 
-                        <div style="position: relative; display: flex; align-items: center; justify-content: center; height: 100%; z-index: 2;">
-                            <img style="max-height: 100%; max-width: 100%; display: block;" 
-                                src="{{ site.url }}{{ site.baseurl }}{{ image.path }}" 
-                                alt="Slide {{ forloop.index }}" />
-                        </div>
+                        <!-- Main square image (centered with absolute positioning) -->
+                        <img style="position: absolute; top: 0; left: 25%; height: 100%; width: auto; display: block; margin-left: auto; margin-right: auto; z-index: 1;" 
+                        src="{{ site.url }}{{ site.baseurl }}{{ image.path }}" 
+                        alt="Slide {{ forloop.index }}" />
                     
+
+
                     
                     </div>
 				{% else %}
