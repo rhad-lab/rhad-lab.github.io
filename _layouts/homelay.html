@@ -27,7 +27,7 @@ layout: default
                 <img style="position: relative; top: 0; left: 0; -webkit-filter: blur(2px);" src="{{ site.url }}{{ site.baseurl }}{{ image.path }}" alt="Slide {{ forloop.index }}" />
                 <img style="position: absolute; top: 0; left: 25%; height: 100%; width:auto; display: block; margin-left: auto; margin-right: auto;" src="{{ site.url }}{{ site.baseurl }}{{ image.path }}" alt="Slide {{ forloop.index }}" />                
 				{% else %}
-                <img src="{{ site.url }}{{ site.baseurl }}{{ image.path }}" alt="Slide {{ forloop.index }}" />
+                <img style="position: relative; top: 0; left: 0;" src="{{ site.url }}{{ site.baseurl }}{{ image.path }}" alt="Slide {{ forloop.index }}" />
                 {% endif %}
             </div>
             {% endfor %}
