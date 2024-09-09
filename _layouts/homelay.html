@@ -24,15 +24,15 @@ layout: default
             {% for image in site.data.slider_images.images %}
                 {% if image.square %}
                     <div class="item {% if forloop.first %}active{% endif %}" style="position: relative; height: 100%; width:auto;">
-                        
-                    <div style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; 
-                        background-image: url('{{ site.url }}{{ site.baseurl }}{{ image.path }}');
-                        background-size: cover; filter: blur(10px); z-index: 1;">
+                    
+                    
+                    <div style="position: relative; top: 0; left: 0; height: 100%; width: 100%; 
+                    background-image: url('{{ site.url }}{{ site.baseurl }}{{ image.path }}');
+                    background-size: cover; filter: blur(10px); z-index: 1;">
                     </div>
-                    <img style="position: relative; height: 100%; width: auto; z-index: 2; margin: 0 auto; display: block;" 
-                        src="{{ site.url }}{{ site.baseurl }}{{ image.path }}" 
-                        alt="Slide {{ forloop.index }}" />
+                    <img style="position: absolute; top: 0; left: 25%; height: 100%; width:auto; display: block; margin-left: auto; margin-right: auto;" src="{{ site.url }}{{ site.baseurl }}{{ image.path }}" alt="Slide {{ forloop.index }}" />                
 
+                    
                     </div>
 				{% else %}
                     <div class="item {% if forloop.first %}active{% endif %}">
