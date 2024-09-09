@@ -23,9 +23,9 @@ layout: default
         <div class="carousel-inner" style="height:400px;">
             {% for image in site.data.slider_images.images %}
                 {% if image.square %}
-                    <div class="item {% if forloop.first %}active{% endif %}" style="position: relative; height: 100%; width:auto;">
+                    <div class="item {% if forloop.first %}active{% endif %}" style="position: relative; height: auto; width:100%;">
                         
-                        <div style="position: absolute; top: 0; left: 0; height: 100%; width: 100%; 
+                        <div style="position: relative; top: 0; left: 0; height: 100%; width: 100%; 
                             background-image: url('{{ site.url }}{{ site.baseurl }}{{ image.path }}');
                             background-size: cover; filter: blur(10px); z-index: 0;">
                         </div>
