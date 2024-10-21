@@ -37,7 +37,7 @@
   long_description: "When capturing sounds from inside the ear with an in-ear microphone, signals such as speech, breathing, and physiological noise overlap both in time and frequency, complicating their use in health monitoring devices. This overlap poses significant challenges in separating individual signals, which is crucial for accurately interpreting bio-acoustic data. The objective of this research is to develop a source separation system capable of separating these overlapping signals, ultimately enhancing the precision and reliability of health insights from wearable devices, especially for monitoring key physiological events like respiration and heart rate."
   student_name: "Yassine Mrabet"
   student_page: "https://www.rhad-lab.ca/team/yassine_mb"
-  image: "/images/projects/iem_separation_ym.png"
+  image: "images/projects/iem_separation_ym.png"
   url: project_yassine
   type : Msc
 
