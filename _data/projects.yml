@@ -27,7 +27,7 @@
   long_description: "In health monitoring, using in-ear microphones can identify sound patterns indicating coordination issues between swallowing and breathing, crucial for conditions like sialorrhea for people with Parkinson's disease. By detecting the frequency of swallowing and the timing of the respiratory cycle, we can potentially verify the hypothesis that excessive drooling in people with Parkinson's disease is due to impaired swallowing rather than excessive saliva production. To achieve this, ultrasound serves as a control method to distinguish spontaneous and food swallowing from other activities to have a labeled dataset for a machine learning algorithm."
   student_name: "Elyes Ben Cheikh "
   student_page: "https://www.rhad-lab.ca/team/elyes_ben_cheikh"
-  image: "images/team/projet_eb.png"
+  image: "images/projects/projet_eb.png"
   url: project_elyes
   type : Msc
 
@@ -37,7 +37,7 @@
   long_description: "When capturing sounds from inside the ear with an in-ear microphone, signals such as speech, breathing, and physiological noise overlap both in time and frequency, complicating their use in health monitoring devices. This overlap poses significant challenges in separating individual signals, which is crucial for accurately interpreting bio-acoustic data. The objective of this research is to develop a source separation system capable of separating these overlapping signals, ultimately enhancing the precision and reliability of health insights from wearable devices, especially for monitoring key physiological events like respiration and heart rate."
   student_name: "Yassine Mrabet"
   student_page: "https://www.rhad-lab.ca/team/yassine_mb"
-  image: "/images/team/iem_separation_ym.png"
+  image: "/images/projects/iem_separation_ym.png"
   url: project_yassine
   type : Msc
 
