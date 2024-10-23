@@ -103,6 +103,8 @@ table td:nth-of-type(1) {
      <!-- DOI -->
     {% if publi.DOI -%}
       <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+      {% elsif publi.URL -%}
+      <a href="{{publi.URL}}">URL</a>
     {% endif -%}
     </td>
    </tr>
