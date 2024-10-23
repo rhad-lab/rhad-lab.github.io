@@ -2,6 +2,76 @@
   {
     "author": [
       {
+        "family": "Benesch",
+        "given": "Danielle"
+      },
+      {
+        "family": "Chabot",
+        "given": "Philippe"
+      },
+      {
+        "family": "Tom",
+        "given": "Ajin"
+      },
+      {
+        "family": "Voix",
+        "given": "Jérémie"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      }
+    ],
+    "container-title": "IEEE-EMBS international conference on body sensor networks",
+    "id": "Benesch2024",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "title": "Template-based extraction of interbeat intervals from in-ear heartbeat sounds",
+    "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Pinsonnault-Skvarenina",
+        "given": "Alexis"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      },
+      {
+        "family": "Pintat",
+        "given": "Valentin"
+      },
+      {
+        "family": "Voix",
+        "given": "Jérémie"
+      }
+    ],
+    "collection-number": "1",
+    "container-title": "Proceedings of meetings on acoustics",
+    "id": "SkvareninaPOMA",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          8
+        ]
+      ]
+    },
+    "page": "040003",
+    "title": "The InteracSon Immersive Auditory Platform: An initiative for promoting awareness of noise-induced hearing risks",
+    "type": "paper-conference",
+    "volume": "54"
+  },
+  {
+    "author": [
+      {
         "family": "Zhang",
         "given": "Xinyi"
       },
@@ -285,6 +355,37 @@
     "title": "Classification of nonverbal human produced audio events: A pilot study",
     "title-short": "Classification of nonverbal human produced audio events",
     "type": "paper-conference"
+  },
+  {
+    "author": [
+      {
+        "family": "Mehrban",
+        "given": "Malahat HK"
+      },
+      {
+        "family": "Voix",
+        "given": "Jérémie"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel E"
+      }
+    ],
+    "container-title": "Sensors",
+    "id": "mehrban2024classification",
+    "issue": "20",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "page": "6679",
+    "publisher": "MDPI",
+    "title": "Classification of breathing phase and path with in-ear microphones",
+    "type": "article-journal",
+    "volume": "24"
   },
   {
     "DOI": "10.3390/ijerph21010084",
