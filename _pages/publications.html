@@ -57,9 +57,9 @@ table td:nth-of-type(1) {
     {{ publi.issued.date-parts | jsonify | slice: 2,4 }}.
     <!-- DOI -->
     {% if publi.DOI -%}
-      <a href="https://doi.org/{{publi.DOI}}">DOI:{{publi.DOI}}</a>
+      <a href="https://doi.org/{{publi.DOI}}" target="_blank" >DOI:{{publi.DOI}}</a>
     {% elsif publi.URL -%}
-      <a href="{{publi.URL}}">URL</a>
+      <a href="{{publi.URL}}" target="_blank" >URL</a>
     {% endif -%}
     </td>
    </tr>
