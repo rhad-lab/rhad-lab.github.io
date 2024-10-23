@@ -35,6 +35,7 @@
     "type": "paper-conference"
   },
   {
+    "DOI": "10.1121/2.0001937",
     "author": [
       {
         "family": "Pinsonnault-Skvarenina",
@@ -70,6 +71,7 @@
     "volume": "54"
   },
   {
+    "URL": "https://jcaa.caa-aca.ca/index.php/jcaa/article/view/4117/3606",
     "author": [
       {
         "family": "Zhang",
@@ -106,6 +108,7 @@
     "volume": "51"
   },
   {
+    "URL": "https://jcaa.caa-aca.ca/index.php/jcaa/article/view/3884/3449",
     "author": [
       {
         "family": "Zhang",
@@ -136,6 +139,7 @@
     "volume": "50"
   },
   {
+    "URL": "https://jcaa.caa-aca.ca/index.php/jcaa/article/view/3886/3415",
     "author": [
       {
         "family": "Mehrban",
@@ -235,6 +239,7 @@
     "type": "paper-conference"
   },
   {
+    "URL": "http://pub.dega-akustik.de/ICA2019/data/articles/001566.pdf",
     "author": [
       {
         "family": "Verduykt",
@@ -279,6 +284,7 @@
     "type": "paper-conference"
   },
   {
+    "URL": "https://espace2.etsmtl.ca/id/eprint/19276/1/Voix-J-2019-19276.pdf",
     "author": [
       {
         "family": "Voix",
@@ -320,6 +326,7 @@
     "type": "paper-conference"
   },
   {
+    "URL": "https://www.isca-archive.org/interspeech_2018/bouserhal18_interspeech.pdf",
     "author": [
       {
         "family": "Bouserhal",
@@ -357,6 +364,38 @@
     "type": "paper-conference"
   },
   {
+    "DOI": "10.1109/ICASSP.2015.7178944",
+    "author": [
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      },
+      {
+        "family": "Falk",
+        "given": "Tiago H"
+      },
+      {
+        "family": "Voix",
+        "given": "Jérémie"
+      }
+    ],
+    "container-title": "2015 IEEE international conference on acoustics, speech and signal processing (ICASSP)",
+    "id": "bouserhal2015potential",
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "page": "5108-5112",
+    "publisher": "IEEE",
+    "title": "On the potential for artificial bandwidth extension of bone and tissue conducted speech: A mutual information study",
+    "title-short": "On the potential for artificial bandwidth extension of bone and tissue conducted speech",
+    "type": "paper-conference"
+  },
+  {
+    "DOI": "10.3390/s24206679",
     "author": [
       {
         "family": "Mehrban",
@@ -723,6 +762,144 @@
     "title-short": "Variations in voice level and fundamental frequency with changing background noise level and talker-to-listener distance while wearing hearing protectors",
     "type": "article-journal",
     "volume": "55"
+  },
+  {
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Xinyi"
+      },
+      {
+        "family": "Shamei",
+        "given": "Arian"
+      },
+      {
+        "family": "Grond",
+        "given": "Florian"
+      },
+      {
+        "family": "Verduyckt",
+        "given": "Ingrid"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      }
+    ],
+    "id": "zhang",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "note": "Annual Meetings of the Acoustical Society of America",
+    "publisher-place": "Ottawa, Ontario, Canada",
+    "title": "Towards a better understanding of multimodal integration and sensorimotor adaptation to audiovisual environmental incongruence using Virtual Reality",
+    "type": "manuscript"
+  },
+  {
+    "author": [
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      }
+    ],
+    "id": "Bouserhal_ACFAS",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "note": "<i>91e Congrès de I’Acfas</i>",
+    "publisher-place": "Ottawa, Ontario, Canada",
+    "title": "Regards sur le son : Le potentiel des dispauditifs pour la détection précoce et la surveillance en continue de la maladie d’alzheimer",
+    "title-short": "Regards sur le son ",
+    "type": "manuscript"
+  },
+  {
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Xinyi"
+      },
+      {
+        "family": "Shamei",
+        "given": "Arian"
+      },
+      {
+        "family": "Grond",
+        "given": "Florian"
+      },
+      {
+        "family": "Verduyckt",
+        "given": "Ingrid"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      }
+    ],
+    "id": "zhang2024towards",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          5
+        ]
+      ]
+    },
+    "note": "<i>186th Meeting of the Acoustical Society of America/Acoustics Week in Canada</i>",
+    "publisher-place": "Ottawa, Ontario, Canada",
+    "title": "Towards a better understanding of multimodal integration and sensorimotor adaptation to audiovisual environmental incongruence using virtual reality",
+    "type": "manuscript"
+  },
+  {
+    "author": [
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      }
+    ],
+    "id": "Bouserhal_VT",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "note": "<i>Interdisciplinary Topics at Virginia Tech</i>",
+    "publisher-place": "Blacksburgh, Virginia, USA",
+    "title": "Ears to the future: Harnessing in-ear wearables for early disease detection",
+    "title-short": "Ears to the future",
+    "type": "manuscript"
+  },
+  {
+    "author": [
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      }
+    ],
+    "id": "Bouserhal_AEE",
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "note": "<i>Audio Enthusiasts and Engineers at Michigan State University</i>",
+    "publisher-place": "Virtual",
+    "title": "Ears to the future: Harnessing in-ear wearables for early disease detection",
+    "title-short": "Ears to the future",
+    "type": "manuscript"
   },
   {
     "author": [
