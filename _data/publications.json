@@ -2,112 +2,6 @@
   {
     "author": [
       {
-        "family": "Benesch",
-        "given": "Danielle"
-      },
-      {
-        "family": "Chabot",
-        "given": "Philippe"
-      },
-      {
-        "family": "Tom",
-        "given": "Ajin"
-      },
-      {
-        "family": "Voix",
-        "given": "Jérémie"
-      },
-      {
-        "family": "Bouserhal",
-        "given": "Rachel"
-      }
-    ],
-    "container-title": "IEEE-EMBS international conference on body sensor networks",
-    "id": "Benesch2024",
-    "issued": {
-      "date-parts": [
-        [
-          2024
-        ]
-      ]
-    },
-    "title": "Template-based extraction of interbeat intervals from in-ear heartbeat sounds",
-    "type": "paper-conference"
-  },
-  {
-    "author": [
-      {
-        "family": "Pinsonnault-Skvarenina",
-        "given": "Alexis"
-      },
-      {
-        "family": "Bouserhal",
-        "given": "Rachel"
-      },
-      {
-        "family": "Pintat",
-        "given": "Valentin"
-      },
-      {
-        "family": "Voix",
-        "given": "Jérémie"
-      }
-    ],
-    "collection-number": "1",
-    "container-title": "Proceedings of meetings on acoustics",
-    "id": "SkvareninaPOMA",
-    "issued": {
-      "date-parts": [
-        [
-          2024,
-          8
-        ]
-      ]
-    },
-    "page": "040003",
-    "title": "The InteracSon Immersive Auditory Platform: An initiative for promoting awareness of noise-induced hearing risks",
-    "type": "paper-conference",
-    "volume": "54"
-  },
-  {
-    "author": [
-      {
-        "family": "Zhang",
-        "given": "Xinyi"
-      },
-      {
-        "family": "Berger",
-        "given": "Lucia Eve"
-      },
-      {
-        "family": "Tran",
-        "given": "Duc-Hoa"
-      },
-      {
-        "family": "Bouserhal",
-        "given": "Rachel"
-      }
-    ],
-    "collection-number": "3",
-    "container-title": "Canadian acoustics",
-    "id": "zhang2023enhancing",
-    "issued": {
-      "date-parts": [
-        [
-          2023
-        ]
-      ]
-    },
-    "page": "76-77",
-    "publisher": "Canadian Acoustical Association",
-    "title": "Enhancing automatic speech recognition of a regional dialect: A pilot study with québécois french",
-    "title-short": "Enhancing automatic speech recognition of a regional dialect",
-    "type": "paper-conference",
-    "volume": "51"
-  },
-  {
-    "author": [
-      {
         "family": "Zhang",
         "given": "Xinyi"
       },
@@ -164,6 +58,42 @@
     "title": "Towards detection and classification of non-verbal events and biosignals in hearables",
     "type": "paper-conference",
     "volume": "50"
+  },
+  {
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Xinyi"
+      },
+      {
+        "family": "Berger",
+        "given": "Lucia Eve"
+      },
+      {
+        "family": "Tran",
+        "given": "Duc-Hoa"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      }
+    ],
+    "collection-number": "3",
+    "container-title": "Canadian acoustics",
+    "id": "zhang2023enhancing",
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "page": "76-77",
+    "publisher": "Canadian Acoustical Association",
+    "title": "Enhancing automatic speech recognition of a regional dialect: A pilot study with québécois french",
+    "title-short": "Enhancing automatic speech recognition of a regional dialect",
+    "type": "paper-conference",
+    "volume": "51"
   },
   {
     "DOI": "10.1121/2.0001616",
@@ -357,37 +287,6 @@
     "type": "paper-conference"
   },
   {
-    "author": [
-      {
-        "family": "Mehrban",
-        "given": "Malahat HK"
-      },
-      {
-        "family": "Voix",
-        "given": "Jérémie"
-      },
-      {
-        "family": "Bouserhal",
-        "given": "Rachel E"
-      }
-    ],
-    "container-title": "Sensors",
-    "id": "mehrban2024classification",
-    "issue": "20",
-    "issued": {
-      "date-parts": [
-        [
-          2024
-        ]
-      ]
-    },
-    "page": "6679",
-    "publisher": "MDPI",
-    "title": "Classification of breathing phase and path with in-ear microphones",
-    "type": "article-journal",
-    "volume": "24"
-  },
-  {
     "DOI": "10.3390/ijerph21010084",
     "author": [
       {
@@ -507,7 +406,6 @@
     "volume": "171"
   },
   {
-    "URL": "https://aes2.org/publications/elibrary-page/?id=21459",
     "author": [
       {
         "family": "Bernier",
