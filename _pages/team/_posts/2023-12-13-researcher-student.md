@@ -1,9 +1,9 @@
 ---
 layout: member
-category: student
+category: phd_student
 title: Ons El Mokhtar
 image: 15.png
-role: Master's student
+role: PhD Student
 permalink: 'team/ons_elmokhtar'
 social:
     

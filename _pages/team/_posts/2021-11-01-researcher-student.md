@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: former_student
 title: Malahat Mehraban
 image: 4.jpg
 role: Master's student

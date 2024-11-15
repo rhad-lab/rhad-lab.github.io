@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: former_student
 title: Andree-Maude Degrace
 image: 20.jpg
 role: Master's student
