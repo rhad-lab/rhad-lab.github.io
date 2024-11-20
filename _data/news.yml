@@ -1,5 +1,16 @@
 
 
+- date: 20/11/2024
+  title: "RHAD Lab's Alzheimer’s research spotlighted in international media"
+  content:  Our cutting-edge research on using biosignals and eye movement to advance Alzheimer’s detection has been recognized globally. Featured in Neuroscience News and the Daily Mail, these articles showcase the potential of our work to transform early diagnosis and improve outcomes for individuals affected by neurodegenerative diseases.
+  news_link:  https://neurosciencenews.com/alzheimers-eye-movement-neurotech-28086/
+  news_link_2:  https://www.dailymail.co.uk/health/article-14101425/scientists-listen-alzheimers-disease-study.html
+  picture_link: https://neurosciencenews.com/files/2024/11/alzheimer-ear-tech-neuroscience.jpg
+  css_style: margin-top:50px
+  special: True
+
+
+
 - date: 13/03/2024
   title: "Qu'est ce qui se passe quand on est bombardé du bruit en permanence?"
   content:  Qu'est ce qui se passe quand on est bombardé par le bruit en permanence? Si vous souhaitez connaître les effets de l'exposition au bruit sur votre santé auditive et le genre de technologies dont nous disposons pour vous aider dans ces situations, regardez cet épisode sur ICI Radio-Canada Télé Explora avec Sébastien Kfoury et Rachel Bouserhal.
