@@ -1,9 +1,9 @@
 ---
 layout: member
-category: student
+category: phd_student
 title: Yassine Mrabet
 image: 18.jpg
-role: Master's student
+role: PhD Student
 permalink: 'team/yassine_mb'
 social:
     <> twitter: https://twitter.com/
@@ -29,4 +29,4 @@ education:
  - Education
 ---
 
-Yassine is a freshly graduated computer science engineer from the National Engineering School of Carthage with a strong passion for artificial intelligence and machine learning. He was awarded a 5-year scholarship from the Tunisian government to pursue his Masters's and Ph.D. studies in Canada and had the opportunity to gain valuable experience as a former intern with the Mitacs Globalink program at the University of Winnipeg. Currently, he is engaged in a research masters program at the RHAD Lab - École de technologie supérieure, focusing on the challenging area of source separation of signals captured with an in-ear microphone.
+Yassine is a computer science engineer from the National Engineering School of Carthage with a strong passion for artificial intelligence and machine learning. He was awarded a 5-year scholarship from the Tunisian government to pursue his graduate studies in Canada and gained valuable experience as a Mitacs Globalink intern at the University of Winnipeg. After successfully completing his master’s degree at the RHAD Lab – École de technologie supérieure, where he focused on the challenging area of source separation of signals captured with an in-ear microphone, he is now continuing his research in the same field as a PhD candidate, further advancing AI-driven signal processing solutions.

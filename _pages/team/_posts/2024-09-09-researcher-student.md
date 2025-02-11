@@ -1,6 +1,6 @@
 ---
 layout: member
-category: intern
+category: former_student
 title: Dany Morissette
 image: 22.png
 role: Intern
