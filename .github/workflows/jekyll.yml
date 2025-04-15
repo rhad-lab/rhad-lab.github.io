@@ -2,14 +2,13 @@ name: Deploy Jekyll with GitHub Pages
 
 on:
   push:
-    # Adjust if your default branch is something other than "main"
-    branches: [ "main" ]
+    branches: [ "main" ]  # Adjust if your default branch is named something else
   workflow_dispatch:
 
 permissions:
-  contents: read      # needed to clone the repo
-  pages: write        # needed by the deploy job
-  id-token: write     # needed by the deploy job
+  contents: read
+  pages: write
+  id-token: write
 
 concurrency:
   group: "pages"
@@ -19,24 +18,35 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out code
+      # 1) Check out code
+      - name: Check out
         uses: actions/checkout@v3
 
+      # 2) Configure Pages
       - name: Configure Pages
         uses: actions/configure-pages@v3
 
-      - name: Build site with Jekyll
-        uses: jerryjvl/jekyll-build-action@v1
+      # 3) Install Ruby & Bundler
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          # Correct input keys for this action:
-          jekyll_src: ./
-          jekyll_dest: ./_site
+          ruby-version: '3.1'    # or whichever version you need
 
+      - name: Install dependencies
+        run: |
+          gem install bundler
+          bundle install
+
+      # 4) Build Jekyll site into _site
+      - name: Build the site
+        run: |
+          bundle exec jekyll build --destination _site
+
+      # 5) Upload for the deployment job
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          # Provide the path to your built site
-          path: ./_site
+          path: _site
 
   deploy:
     environment:
