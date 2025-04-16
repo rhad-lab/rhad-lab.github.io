@@ -395,6 +395,49 @@
     "type": "paper-conference"
   },
   {
+    "DOI": "10.1016/j.compbiomed.2024.109555",
+    "author": [
+      {
+        "family": "Benesch",
+        "given": "Danielle"
+      },
+      {
+        "family": "Villatte",
+        "given": "Bérangère"
+      },
+      {
+        "family": "Vinet",
+        "given": "Alain"
+      },
+      {
+        "family": "Hébert",
+        "given": "Sylvie"
+      },
+      {
+        "family": "Voix",
+        "given": "Jérémie"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel E"
+      }
+    ],
+    "container-title": "Computers in Biology and Medicine",
+    "id": "benesch2025stress",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "page": "109555",
+    "publisher": "Elsevier",
+    "title": "Stress classification with in-ear heartbeat sounds",
+    "type": "article-journal",
+    "volume": "186"
+  },
+  {
     "DOI": "10.3390/s24206679",
     "author": [
       {
