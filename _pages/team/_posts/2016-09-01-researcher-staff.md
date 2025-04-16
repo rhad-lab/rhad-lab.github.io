@@ -2,7 +2,7 @@
 layout: member
 category: staff
 title: Rachel Bouserhal
-image: 1.jpg
+image: rachel.jpg
 role: Lab Director
 permalink: 'team/Bouserhal'
 social:

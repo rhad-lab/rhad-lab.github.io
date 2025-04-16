@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Elyes Ben Cheikh
-image: 17.png
+image: elyes.png
 role: Master's student
 permalink: 'team/elyes_ben_cheikh'
 social:

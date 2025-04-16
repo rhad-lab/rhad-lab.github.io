@@ -2,7 +2,7 @@
 layout: member
 category: student
 title: Miriam Boutros
-image: 9.png
+image: miriam.png
 role: Master's student
 permalink: 'team/miriam_boutros'
 social:

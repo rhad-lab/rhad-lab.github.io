@@ -2,7 +2,7 @@
 layout: member
 category: phd_student
 title: Xinyi Zhang
-image: 3.jpg
+image: xinyi.jpg
 role: PhD Student
 permalink: 'team/Zhang'
 social:

@@ -2,7 +2,7 @@
 layout: member
 category: staff
 title: Alessandro Braga
-image: 21.jpg
+image: alessandro.jpg
 role: Postdoctoral Fellow
 permalink: 'team/alessandro_braga'
 social:
