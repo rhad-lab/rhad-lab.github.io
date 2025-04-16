@@ -1,4 +1,7 @@
 images:
+  - path: "/images/slider/slider-image-10.jpg"
+    square: false
+  
   - path: "/images/slider/slider-image.png"
     square: false
 
