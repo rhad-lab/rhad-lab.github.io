@@ -189,9 +189,9 @@ permalink: /team/
 {% if members.size > 0 %}
 <!-- Former Students -->
 <h2><a id="intern"></a>Former Students and Staff</h2>
-<div class="row">
+<div class="row"  class="row d-flex justify-content-center flex-wrap" >
     {% for member in members %}
-    <div class="col-sm-3 mb-3">
+    <div class="col-sm-3 mb-3 d-flex justify-content-center" >
         <div class="card team-member-card">
             <a href={{ member.url }}>
                 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
