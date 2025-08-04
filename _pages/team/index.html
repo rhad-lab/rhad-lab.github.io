@@ -81,6 +81,7 @@ permalink: /team/
     </div>
     {% endfor %}
 </div>
+{% endif %}
 
 
 <!-- Phd -->
@@ -106,6 +107,7 @@ permalink: /team/
     </div>
     {% endfor %}
 </div>
+{% endif %}
 
 
 {% assign members = site.posts | where: 'category', 'student' | sort: 'date' %}
