@@ -1,6 +1,6 @@
 ---
 layout: member
-category: intern
+category: former_student
 title: Daniel Zhou
 image: 14.jpg
 role: Intern

@@ -1,6 +1,6 @@
 ---
 layout: member
-category: staff
+category: former_student
 title: Alessandro Braga
 image: alessandro.jpg
 role: Postdoctoral Fellow

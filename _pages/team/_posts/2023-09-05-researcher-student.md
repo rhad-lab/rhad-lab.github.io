@@ -1,6 +1,6 @@
 ---
 layout: member
-category: research_assistant
+category: former_student
 title: Siyana Milenova Milanova
 image: 13.jpg
 role: Research assistant
