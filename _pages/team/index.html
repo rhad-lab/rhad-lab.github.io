@@ -85,9 +85,11 @@ permalink: /team/
 
 <!-- Phd -->
 
+
+{% assign members = site.posts | where: 'category', 'phd_student' | sort: 'date' %}
+{% if members.size > 0 %}
 <h2><a id="staff"></a>PhD students</h2>
 <div class="row">
-    {% assign members = site.posts | where: 'category', 'phd_student' | sort: 'date' %}
     {% for member in members %}
     <div class="col-sm-3 mb-3">
         <div class="card team-member-card">
@@ -106,12 +108,11 @@ permalink: /team/
 </div>
 
 
-
-
+{% assign members = site.posts | where: 'category', 'student' | sort: 'date' %}
+{% if members.size > 0 %}
 <!-- Master  Students -->
 <h2><a id="student"></a>Master students</h2>
 <div class="row">
-    {% assign members = site.posts | where: 'category', 'student' | sort: 'date' %}
     {% for member in members %}
     <div class="col-sm-3 mb-3">
         <div class="card team-member-card">
@@ -129,13 +130,15 @@ permalink: /team/
     </div>
     {% endfor %}
 </div>
+{% endif %}
 
 
 
+{% assign members = site.posts | where: 'category', 'research_assistant' | sort: 'date' %}
+{% if members.size > 0 %}
 <!-- Research Assistant -->
 <h2><a id="intern"></a>Research assistants</h2>
 <div class="row">
-    {% assign members = site.posts | where: 'category', 'research_assistant' | sort: 'date' %}
     {% for member in members %}
     <div class="col-sm-3 mb-3">
         <div class="card team-member-card">
@@ -151,14 +154,15 @@ permalink: /team/
     </div>
     {% endfor %}
 </div>
+{% endif %}
 
 
 
-
+{% assign members = site.posts | where: 'category', 'intern' | sort: 'date' %}
+{% if members.size > 0 %}
 <!-- Interns -->
 <h2><a id="intern"></a>Interns</h2>
 <div class="row">
-    {% assign members = site.posts | where: 'category', 'intern' | sort: 'date' %}
     {% for member in members %}
     <div class="col-sm-3 mb-3">
         <div class="card team-member-card">
@@ -174,16 +178,17 @@ permalink: /team/
     </div>
     {% endfor %}
 </div>
+{% endif %}
 
 
 
 
 
-
+{% assign members = site.posts | where: 'category', 'former_student' | sort: 'date' %}
+{% if members.size > 0 %}
 <!-- Former Students -->
 <h2><a id="intern"></a>Former Students and Staff</h2>
 <div class="row">
-    {% assign members = site.posts | where: 'category', 'former_student' | sort: 'date' %}
     {% for member in members %}
     <div class="col-sm-3 mb-3">
         <div class="card team-member-card">
@@ -200,3 +205,4 @@ permalink: /team/
     </div>
     {% endfor %}
 </div>
+{% endif %}
