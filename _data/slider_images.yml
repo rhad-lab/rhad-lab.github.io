@@ -28,3 +28,7 @@ images:
 
   - path: "/images/slider/slider-image-9.png"
     square: true
+  - path: "/images/slider/slider-image-11.png"
+    square: true
+  - path: "/images/slider/slider-image-12.png"
+    square: true
