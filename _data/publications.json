@@ -395,6 +395,245 @@
     "type": "paper-conference"
   },
   {
+    "DOI": "10.3390/s26072019",
+    "author": [
+      {
+        "family": "Ben Cheikh",
+        "given": "Elyes"
+      },
+      {
+        "family": "Mrabet",
+        "given": "Yassine"
+      },
+      {
+        "family": "Laporte",
+        "given": "Catherine"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel E"
+      }
+    ],
+    "container-title": "Sensors",
+    "id": "ben2026multimodal",
+    "issue": "7",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "page": "2019",
+    "publisher": "MDPI",
+    "title": "A multimodal in-ear audio and physiological dataset for swallowing and non-verbal event classification",
+    "type": "article-journal",
+    "volume": "26"
+  },
+  {
+    "DOI": "10.1121/10.0042751",
+    "author": [
+      {
+        "family": "Ouaknine-Beaulieu",
+        "given": "Gabriel"
+      },
+      {
+        "family": "Zhang",
+        "given": "Xinyi N"
+      },
+      {
+        "family": "Pillet",
+        "given": "Charles"
+      },
+      {
+        "family": "Voix",
+        "given": "Jérémie"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      },
+      {
+        "family": "Giard",
+        "given": "Pascal"
+      }
+    ],
+    "container-title": "The Journal of the Acoustical Society of America",
+    "id": "ouaknine2026enabling",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "page": "1762-1775",
+    "publisher": "AIP Publishing",
+    "title": "Enabling personalized communication with advanced hearing protection devices: Integrating and evaluating concepts of a radio acoustical virtual environment",
+    "title-short": "Enabling personalized communication with advanced hearing protection devices",
+    "type": "article-journal",
+    "volume": "159"
+  },
+  {
+    "DOI": "10.1121/10.0042355",
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Xinyi N"
+      },
+      {
+        "family": "Verduyckt",
+        "given": "Ingrid"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      }
+    ],
+    "container-title": "The Journal of the Acoustical Society of America",
+    "id": "zhang2026hearing",
+    "issue": "2",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "page": "1010-1026",
+    "publisher": "AIP Publishing",
+    "title": "Hearing-integrated bilingual speech corpus: A french-english corpus including hearables for studying speech production under challenging listening conditions",
+    "title-short": "Hearing-integrated bilingual speech corpus",
+    "type": "article-journal",
+    "volume": "159"
+  },
+  {
+    "DOI": "10.1121/10.0042240",
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Xinyi N"
+      },
+      {
+        "family": "Shamei",
+        "given": "Arian"
+      },
+      {
+        "family": "Grond",
+        "given": "Florian"
+      },
+      {
+        "family": "Verduyckt",
+        "given": "Ingrid"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      }
+    ],
+    "container-title": "The Journal of the Acoustical Society of America",
+    "id": "zhang2026temporal",
+    "issue": "1",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "page": "384-397",
+    "publisher": "AIP Publishing",
+    "title": "The temporal effects of auditory and visual immersion on speech level in virtual environments",
+    "type": "article-journal",
+    "volume": "159"
+  },
+  {
+    "DOI": "10.1016/j.compbiomed.2024.109555",
+    "author": [
+      {
+        "family": "Pommée",
+        "given": "Timothy"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      },
+      {
+        "family": "Chang",
+        "given": "Tiffany"
+      },
+      {
+        "family": "Renaud",
+        "given": "Florence"
+      },
+      {
+        "family": "Borges",
+        "given": "Cecilia Maria Ferreira"
+      },
+      {
+        "family": "Bockstael",
+        "given": "Annelies"
+      },
+      {
+        "family": "Verduyckt",
+        "given": "Ingrid"
+      }
+    ],
+    "container-title": "Noise and Health",
+    "id": "pommee2025acoustic",
+    "issue": "128",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "page": "602-613",
+    "publisher": "Medknow",
+    "title": "Acoustic conditions and student perceptions in a québec classroom: A case study",
+    "title-short": "Acoustic conditions and student perceptions in a québec classroom",
+    "type": "article-journal",
+    "volume": "27"
+  },
+  {
+    "DOI": "10.1121/10.0039375",
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Xinyi"
+      },
+      {
+        "family": "Shamei",
+        "given": "Arian"
+      },
+      {
+        "family": "Braga",
+        "given": "Alessandro"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel E"
+      }
+    ],
+    "container-title": "The Journal of the Acoustical Society of America",
+    "id": "zhang2025effects",
+    "issue": "3",
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "page": "2238-2249",
+    "publisher": "AIP Publishing",
+    "title": "The effects of microphone positioning in hearables on voice quality and F0 measurements",
+    "type": "article-journal",
+    "volume": "158"
+  },
+  {
     "DOI": "10.1016/j.compbiomed.2024.109555",
     "author": [
       {
@@ -419,7 +658,7 @@
       },
       {
         "family": "Bouserhal",
-        "given": "Rachel E"
+        "given": "Rachel"
       }
     ],
     "container-title": "Computers in Biology and Medicine",
