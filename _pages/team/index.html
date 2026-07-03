@@ -7,7 +7,6 @@ permalink: /team/
 ---
 
 <h1>RHAD Lab Members</h1>
-
 <style>
     .team-section {
         margin-bottom: 35px;
@@ -16,7 +15,7 @@ permalink: /team/
     .team-row {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         gap: 25px;
     }
 
@@ -71,7 +70,6 @@ permalink: /team/
         margin-bottom: 0;
     }
 </style>
-
 
 <!-- Staff -->
 {% assign members = site.posts | where: 'category', 'staff' | sort: 'date' %}
