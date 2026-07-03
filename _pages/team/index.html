@@ -9,52 +9,81 @@ permalink: /team/
 <h1>RHAD Lab Members</h1>
 
 <style>
+    .team-section {
+        margin-bottom: 35px;
+    }
+
+    .team-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 25px;
+    }
+
+    .team-member-col {
+        width: 220px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .team-member-card {
+        width: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 100%;
+        border: none;
+        text-align: center;
+    }
+
+    .team-member-card a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .team-member-card img {
-        width: auto;
+        width: 180px;
         height: 200px;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 10%;
+    }
+
+    .team-member-card .card-body {
+        padding-top: 10px;
         text-align: center;
     }
 
     .card-title {
         text-align: center;
+        font-size: 18px;
+        line-height: 1.2;
+        min-height: 45px;
+        margin-bottom: 8px;
     }
 
     .card-text {
         text-align: center;
-    }
-
-    .team-member-card {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: 100%;
-        border: none;
-    }
-
-    .team-member-col {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-    }
-
-    .team-member-card .card-body {
-        text-align: center;
+        font-size: 15px;
+        line-height: 1.2;
+        margin-bottom: 0;
     }
 </style>
+
 
 <!-- Staff -->
 {% assign members = site.posts | where: 'category', 'staff' | sort: 'date' %}
 {% if members.size > 0 %}
 <h2><a id="staff"></a>Staff</h2>
-<div class="row justify-content-center">
+<div class="team-row team-section">
     {% for member in members %}
-    <div class="col-sm-3 mb-3 team-member-col">
+    <div class="team-member-col">
         <div class="card team-member-card">
             <a href="{{ member.url }}">
                 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img-top img-thumbnail"
-                    style="border-radius: 10%;" />
+                     class="img-thumbnail" />
             </a>
             <div class="card-body">
                 <h4 class="card-title">{{ member.title }}</h4>
@@ -71,14 +100,13 @@ permalink: /team/
 {% assign members = site.posts | where: 'category', 'phd_student' | sort: 'date' %}
 {% if members.size > 0 %}
 <h2><a id="phd"></a>PhD students</h2>
-<div class="row justify-content-center">
+<div class="team-row team-section">
     {% for member in members %}
-    <div class="col-sm-3 mb-3 team-member-col">
+    <div class="team-member-col">
         <div class="card team-member-card">
             <a href="{{ member.url }}">
                 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img-top img-thumbnail"
-                    style="border-radius: 10%;" />
+                     class="img-thumbnail" />
             </a>
             <div class="card-body">
                 <h4 class="card-title">{{ member.title }}</h4>
@@ -95,14 +123,13 @@ permalink: /team/
 {% assign members = site.posts | where: 'category', 'student' | sort: 'date' %}
 {% if members.size > 0 %}
 <h2><a id="student"></a>Master students</h2>
-<div class="row justify-content-center">
+<div class="team-row team-section">
     {% for member in members %}
-    <div class="col-sm-3 mb-3 team-member-col">
+    <div class="team-member-col">
         <div class="card team-member-card">
             <a href="{{ member.url }}">
                 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img-top img-thumbnail"
-                    style="border-radius: 10%;" />
+                     class="img-thumbnail" />
             </a>
             <div class="card-body">
                 <h4 class="card-title">{{ member.title }}</h4>
@@ -119,14 +146,13 @@ permalink: /team/
 {% assign members = site.posts | where: 'category', 'research_assistant' | sort: 'date' %}
 {% if members.size > 0 %}
 <h2><a id="research-assistant"></a>Research assistants</h2>
-<div class="row justify-content-center">
+<div class="team-row team-section">
     {% for member in members %}
-    <div class="col-sm-3 mb-3 team-member-col">
+    <div class="team-member-col">
         <div class="card team-member-card">
             <a href="{{ member.url }}">
                 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img-top img-thumbnail"
-                    style="border-radius: 10%;" />
+                     class="img-thumbnail" />
             </a>
             <div class="card-body">
                 <h4 class="card-title">{{ member.title }}</h4>
@@ -142,14 +168,13 @@ permalink: /team/
 {% assign members = site.posts | where: 'category', 'intern' | sort: 'date' %}
 {% if members.size > 0 %}
 <h2><a id="intern"></a>Interns</h2>
-<div class="row justify-content-center">
+<div class="team-row team-section">
     {% for member in members %}
-    <div class="col-sm-3 mb-3 team-member-col">
+    <div class="team-member-col">
         <div class="card team-member-card">
             <a href="{{ member.url }}">
                 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img-top img-thumbnail"
-                    style="border-radius: 10%;" />
+                     class="img-thumbnail" />
             </a>
             <div class="card-body">
                 <h4 class="card-title">{{ member.title }}</h4>
@@ -165,14 +190,13 @@ permalink: /team/
 {% assign members = site.posts | where: 'category', 'former_student' | sort: 'date' %}
 {% if members.size > 0 %}
 <h2><a id="former"></a>Former Students and Staff</h2>
-<div class="row justify-content-center">
+<div class="team-row team-section">
     {% for member in members %}
-    <div class="col-sm-3 mb-3 team-member-col">
+    <div class="team-member-col">
         <div class="card team-member-card">
             <a href="{{ member.url }}">
                 <img src="{{ site.url }}{{ site.baseurl }}/images/team/{{ member.image }}"
-                    class="card-img-top img-thumbnail"
-                    style="border-radius: 10%;" />
+                     class="img-thumbnail" />
             </a>
             <div class="card-body">
                 <h4 class="card-title">{{ member.title }}</h4>
