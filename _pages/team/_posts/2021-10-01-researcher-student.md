@@ -1,6 +1,6 @@
 ---
 layout: member
-category: phd_student
+category: former_student
 title: Xinyi Zhang
 image: xinyi.jpg
 role: PhD Student

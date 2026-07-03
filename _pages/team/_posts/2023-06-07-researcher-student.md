@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: former_student
 title: Gabriel Ouaknine-Beaulie
 image: 12.png
 role: Master's student

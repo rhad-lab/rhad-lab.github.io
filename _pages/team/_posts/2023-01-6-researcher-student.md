@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: former_student
 title: Miriam Boutros
 image: miriam.jpg
 role: Master's student

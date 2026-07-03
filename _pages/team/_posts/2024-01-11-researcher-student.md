@@ -1,6 +1,6 @@
 ---
 layout: member
-category: student
+category: former_student
 title: Elyes Ben Cheikh
 image: elyes.jpg
 role: Master's student

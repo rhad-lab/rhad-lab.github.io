@@ -1,6 +1,6 @@
 ---
 layout: member
-category: intern
+category: former_student
 title: Maxence Duguay
 image: 23.jpg
 role: Intern
