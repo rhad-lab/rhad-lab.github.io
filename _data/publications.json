@@ -395,6 +395,51 @@
     "type": "paper-conference"
   },
   {
+    "author": [
+      {
+        "family": "Niemczak",
+        "given": "Christopher"
+      },
+      {
+        "family": "Boutros",
+        "given": "Miriam"
+      },
+      {
+        "family": "Stevenson",
+        "given": "Jenna"
+      },
+      {
+        "family": "Rahmouni",
+        "given": "Nesrine"
+      },
+      {
+        "family": "Rosa-Neto",
+        "given": "Pedro"
+      },
+      {
+        "family": "Bouserhal",
+        "given": "Rachel"
+      }
+    ],
+    "container-title": "Journal of Alzheimer’s Disease",
+    "id": "Boutros",
+    "issue": "",
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "note": "accepted",
+    "page": "",
+    "publisher": "Sage",
+    "title": "A multimodal database for detecting cognitive impairment associated with alzheimer’s disease using central auditoryand physiological measures: A pilot study",
+    "title-short": "A multimodal database for detecting cognitive impairment associated with alzheimer’s disease using central auditoryand physiological measures",
+    "type": "article-journal",
+    "volume": ""
+  },
+  {
     "DOI": "10.3390/s26072019",
     "author": [
       {
