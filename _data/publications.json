@@ -423,7 +423,6 @@
     ],
     "container-title": "Journal of Alzheimer’s Disease",
     "id": "Boutros",
-    "issue": "",
     "issued": {
       "date-parts": [
         [
@@ -432,12 +431,10 @@
       ]
     },
     "note": "accepted",
-    "page": "",
     "publisher": "Sage",
     "title": "A multimodal database for detecting cognitive impairment associated with alzheimer’s disease using central auditoryand physiological measures: A pilot study",
     "title-short": "A multimodal database for detecting cognitive impairment associated with alzheimer’s disease using central auditoryand physiological measures",
-    "type": "article-journal",
-    "volume": ""
+    "type": "article-journal"
   },
   {
     "DOI": "10.3390/s26072019",
